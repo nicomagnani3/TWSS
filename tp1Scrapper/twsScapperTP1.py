@@ -2,21 +2,27 @@ from tokenize import String
 import bs4 
 import requests
 from movie import Movie
+import json
 
 
 if __name__ == "__main__":
 
-    pageHTMLCartelera= requests.get("http://www.cinemalaplata.com/cartelera.aspx").text
-    soup= bs4.BeautifulSoup(pageHTMLCartelera,"html.parser")
-    movies = soup.find_all('div',attrs={"class":"page-container singlepost"})
-    names=[]
-    for movie in movies:       
-        name= Movie.getNameMovieCinema(movie) 
-        names.append(name)
-        if (name.replace(" ", "") == 'BATMAN'):
-            
-            Movie.getSalaAndHoursMovieCinema(movie)
-        #movieDetails=Movie.getDetailsMovieCinema(movie)
+    print(Movie.getMoviesCinema())
+    pageHTMLCartelera= requests.get("https://www.cinepolis.com.ar/").text
+    soup= bs4.BeautifulSoup(pageHTMLCartelera,"lxml")
+    movies = soup.find('section',attrs={"class":"featured-movies-section"})
+    movies
+    print(movies)
+    
+    
+
+
+    
+    
+    
+  
+
+    
         
 
 
