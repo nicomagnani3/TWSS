@@ -1,9 +1,7 @@
 import bs4 
 import requests
 import json
-import html
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+
 class MovieCinpolis():
 
     def getMoviesCinepolis():
