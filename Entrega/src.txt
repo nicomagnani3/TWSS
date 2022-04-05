@@ -1,0 +1,6 @@
+Pasos para utilizar el programa
+en el archivo src obtendremos twsScapperTP1.Py
+esta clase es la main donde se ejecutan dos funciones 
+MovieCinema.getMoviesCinema(),MovieCinpolis.getMoviesCinepolis() 
+cada funcion de su respectiva clase realiza la logica necesaria para poder buscar de cada web sus peliculas en cartelera o en el caso de cinepolis
+sus proximos estrenos y en base a cada pelicula obtiene sus detalles y arma un JSON.

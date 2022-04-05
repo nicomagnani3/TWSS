@@ -1,0 +1,13 @@
+En el caso de la web de Cinema el mayor desafio fue como obtener el listado de horarios de una pelicula en particular
+ya que cuando con beautifulsoup obtenia el listado no encontraba el formato para poder acomodar el texto legible
+Googleando un poco encontre funcion=html.unescape() y de esta forma pude aomodar el formato del html
+
+Por el lado de cinepolis se me complico bastante obtener el dom de la cartelera, llegaba a ir rascando el dom hasta que me encontraba
+con que hacia la llamada a un componente (<upcoming-releases></upcoming-releases>))y no tenia manera de obtener el html  de ese componente.
+Asique fui por los proximos estrenos donde tambien no estaba facil de obtener la informacion, el mayor desafio que tuve en esta parte fue que algunos
+estrenos no tenian el detalle de la misma forma que otros, por esto busco primero si esta en un formato y sino en el otro 
+algunos estrenos estan de esta forma find_all('div',attrs={"class":"col mt-3 mt-md-0"})   y otros find_all('div',attrs={"class":"col"})  
+
+Otro desafio que tuve en cinepolis es el detalle de los estrenos, en los detalles tienen algunos datos encerrados en un tag pero otros no
+y al no tener tag me resultaba dificil obtener el texto para exponerlo en el JSON, es por eso que cuando armo el diccionario para el JSON,
+obtengo la clave (.next) y valor con .next_sibling.strip()

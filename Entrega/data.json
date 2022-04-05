@@ -1,0 +1,369 @@
+
+    {
+        "titulo": "CODA: SEÑALES DEL CORAZÓN (RE-ESTRENO)  ",
+        "genero": "Drama",
+        "origen": "EEUU",
+        "duracion": "111 minutos.",
+        "actores": "Emilia Jones, Eugenio Derbez, Marlee Matlin, Troy Kotsur, Daniel Durant, Ferdia Walsh-Peelo, Amy Forsyth, Kevin Chapman",
+        "director": "Sian Heder",
+        "horario": [
+            {
+                "cine": "CINEMA CITY - SALA HD",
+                "horarios": " SUBTITULADA:      13:00 - 18:30 - 20:40  "
+            }
+        ]
+    },
+    {
+        "titulo": "MORBIUS  ",
+        "genero": "FANTASIA- TERROR- ACCION",
+        "origen": "EEUU",
+        "duracion": "108 minutos.",
+        "actores": "Jared Leto, Tyrese Gibson, J.K. Simmons, Matt Smith, Adria Arjona, Jared Harris, Charlie Shotwell, Corey Johnson, Tom Forbes, Adam El Hagar, Archie Re",
+        "director": "Daniel Espinosa",
+        "horario": [
+            {
+                "cine": "CINEMA CITY - SALA 4D ",
+                "horarios": " CASTELLANO:      13:00 - 15:30 SUBTITULADA:      18:00 - 20:35 - 23:15  "
+            },
+            {
+                "cine": "CINEMA OCHO - SALA HD",
+                "horarios": " CASTELLANO:      17:40 - 20:15 - 22:55 SUBTITULADA:      13:00 - 15:15  "
+            },
+            {
+                "cine": "CINEMA ROCHA - SALA ATMOS HD ",
+                "horarios": " CASTELLANO:      13:00 - 15:30 SUBTITULADA:      18:00 - 20:30 - 23:00  "
+            }
+        ]
+    },
+    {
+        "titulo": "CLIFFORD: EL GRAN PERRO ROJO  ",
+        "genero": "Animación",
+        "origen": "EEUU",
+        "duracion": "97 minutos.",
+        "actores": "Jack Whitehall, John Cleese, Sienna Guillory, Kenan Thompson, Rosie Perez",
+        "director": "Walt Becker",
+        "horario": [
+            {
+                "cine": "CINEMA SAN MARTIN - SALA HD",
+                "horarios": " CASTELLANO:      16:00 - 18:15  "
+            }
+        ]
+    },
+    {
+        "titulo": "EL PADRINO 50 AÑOS (RE ESTRENO)  ",
+        "genero": "Drama",
+        "origen": "EEUU",
+        "duracion": "175 minutos.",
+        "actores": "Marlon Brando, Al Pacino, James Caan, Robert Duvall, Diane Keaton, John Cazale, Talia Shire, Richard S. Castellano, Sterling Hayden",
+        "director": "Francis Ford Coppola",
+        "horario": [
+            {
+                "cine": "CINEMA CITY - SALA HD",
+                "horarios": " SUBTITULADA:      22:10  "
+            }
+        ]
+    },
+    {
+        "titulo": "LOS OJOS DE TAMMY FAYE  ",
+        "genero": "Drama romantico",
+        "origen": "EEUU",
+        "duracion": "126 minutos.",
+        "actores": "Jessica Chastain, Andrew Garfield, Vincent D'Onofrio, Cherry Jones, Sam Jaeger, Fredric Lehne, Gabriel Olds, Chandler Head",
+        "director": "Michael Showalter",
+        "horario": [
+            {
+                "cine": "CINEMA PARADISO - SALA HD",
+                "horarios": " SUBTITULADA:      20:00  "
+            }
+        ]
+    },
+    {
+        "titulo": "REY RICHARD (RE-ESTRENO)  ",
+        "genero": "Drama - Biográfico",
+        "origen": "EEUU",
+        "duracion": "144 minutos.",
+        "actores": "Will Smith, Demi Singleton, Saniyya Sidney, Aunjanue Ellis, Jon Bernthal, Tony Goldwyn, Andy Bean, Kevin Dunn",
+        "director": "Reinaldo Marcus Green",
+        "horario": [
+            {
+                "cine": "CINEMA CITY - SALA HD",
+                "horarios": " SUBTITULADA:      19:20  "
+            }
+        ]
+    },
+    {
+        "titulo": "A CIEGAS  ",
+        "genero": "Thriller",
+        "origen": "Canada",
+        "duracion": "93 minutos.",
+        "actores": "Skyler Davenport, Kim Coates, Jessica Parker Kennedy, Laura Vandervoort, Natalie Brown, Matthew Gouveia, George Tchortov, Pascal Langdale, Joe Pingue",
+        "director": "Randall Okita",
+        "horario": [
+            {
+                "cine": "CINEMA ROCHA - SALA HD",
+                "horarios": " CASTELLANO:      15:05 - 17:05 - 22:45  "
+            }
+        ]
+    },
+    {
+        "titulo": "BATMAN  ",
+        "genero": "Acción",
+        "origen": "EEUU",
+        "duracion": "175 minutos.",
+        "actores": "Robert Pattinson, Zöe Kravitz, Paul Dano, Andy Serkis, Colin Farrell, Jeffrey Wright, Peter Sarsgaard, John Turturro, Barry Keoghan",
+        "director": "Matt Reeves",
+        "horario": [
+            {
+                "cine": "CINEMA CITY - SALA HD",
+                "horarios": " SUBTITULADA:      15:05 - 22:50  "
+            },
+            {
+                "cine": "CINEMA OCHO - SALA HD",
+                "horarios": " CASTELLANO:      19:00 - 22:15  "
+            },
+            {
+                "cine": "CINEMA PARADISO - SALA HD",
+                "horarios": " CASTELLANO:      16:00 SUBTITULADA:      22:15  "
+            },
+            {
+                "cine": "CINEMA SAN MARTIN - SALA HD",
+                "horarios": " CASTELLANO:      14:00 - 22:25 SUBTITULADA:      17:45 - 21:30  "
+            }
+        ]
+    },
+    {
+        "titulo": "BELFAST  ",
+        "genero": "Drama",
+        "origen": "Reino Unido",
+        "duracion": "98 minutos.",
+        "actores": "Jude Hill, Lewis McAskie, Caitriona Balfe, Jamie Dornan, Judi Dench, Ciarán Hinds, Lara McDonnell, Gerard Horan, Turlough Convery, Sid Sagar",
+        "director": "Kenneth Branagh",
+        "horario": [
+            {
+                "cine": "CINEMA PARADISO - SALA HD",
+                "horarios": " SUBTITULADA:      13:45 - 21:00  "
+            }
+        ]
+    },
+    {
+        "titulo": "COMPETENCIA OFICIAL  ",
+        "genero": "Comedia dramática",
+        "origen": "España",
+        "duracion": "114 minutos.",
+        "actores": "Antonio Banderas, Penélope Cruz, Oscar Martínez, Carlos Hipólito, Irene Escolar, Nagore Aranburu, Pilar Castro, José Luis Gómez, Juan Grandinetti",
+        "director": "Gastón Duprat, Mariano Cohn",
+        "horario": [
+            {
+                "cine": "CINEMA PARADISO - SALA HD",
+                "horarios": " CASTELLANO:      13:00 - 15:20 - 17:40 - 20:15 - 22:40  "
+            }
+        ]
+    },
+    {
+        "titulo": "ECOS DE UN CRIMEN  ",
+        "genero": "Thriller",
+        "origen": "Argentina",
+        "duracion": "84 minutos.",
+        "actores": "Diego Peretti, Julieta Cardinali, Carla Quevedo, Diego Cremonesi, Carola Reyna",
+        "director": "Cristian Bernard",
+        "horario": [
+            {
+                "cine": "CINEMA ROCHA - SALA HD",
+                "horarios": " CASTELLANO:      23:15  "
+            }
+        ]
+    },
+    {
+        "titulo": "EL EXORCISMO DE DIOS  ",
+        "genero": "Terror",
+        "origen": "México",
+        "duracion": "98 minutos.",
+        "actores": "Maria Gabriela de Faría, Joseph Marcell, Will Beinbrink",
+        "director": "Alejandro Hidalgo",
+        "horario": [
+            {
+                "cine": "CINEMA SAN MARTIN - SALA HD",
+                "horarios": " CASTELLANO:      13:20 - 20:40 - 22:50  "
+            }
+        ]
+    },
+    {
+        "titulo": "ENCANTO  ",
+        "genero": "Animación",
+        "origen": "EEUU",
+        "duracion": "109 minutos.",
+        "actores": "Animación. VOCES ORIGINALES: Stephanie Beatriz.",
+        "director": "Jared Bush, Charise Castro Smith, Byron Howard",
+        "horario": [
+            {
+                "cine": "CINEMA ROCHA - SALA HD",
+                "horarios": " CASTELLANO:      13:00 - 21:05  "
+            },
+            {
+                "cine": "CINEMA SAN MARTIN - SALA HD",
+                "horarios": " CASTELLANO:      15:45 - 18:00  "
+            }
+        ]
+    },
+    {
+        "titulo": "JUJUTSU KAISEN 0  ",
+        "genero": "Aventura",
+        "origen": "Japón",
+        "duracion": "105 minutos.",
+        "actores": "Animación",
+        "director": "Sunghoo Park",
+        "horario": [
+            {
+                "cine": "CINEMA SAN MARTIN - SALA HD",
+                "horarios": " CASTELLANO:      13:00 SUBTITULADA:      15:00 - 17:00 - 19:00 - 21:00 - 23:00  "
+            }
+        ]
+    },
+    {
+        "titulo": "LOS TIPOS MALOS  ",
+        "genero": "Acción, Aventuras",
+        "origen": "EEUU",
+        "duracion": "100 minutos.",
+        "actores": "Animación",
+        "director": "Pierre Perifel",
+        "horario": [
+            {
+                "cine": "CINEMA CITY - SALA HD",
+                "horarios": " CASTELLANO:      13:20 - 15:20 - 17:20  "
+            },
+            {
+                "cine": "CINEMA OCHO - SALA HD",
+                "horarios": " CASTELLANO:      13:00 - 15:00 - 17:00 - 20:15 - 22:25  "
+            },
+            {
+                "cine": "CINEMA ROCHA - SALA HD",
+                "horarios": " CASTELLANO:      13:50 - 19:05  "
+            }
+        ]
+    },
+    {
+        "titulo": "SING 2  ",
+        "genero": "Animación",
+        "origen": "EEUU",
+        "duracion": "110 minutos.",
+        "actores": "Animación, Voz: Matthew McConaughey, Reese Witherspoon, Scarlett Johansson, Taron Egerton, Bobby Cannavale, Tori Kelly, Nick Kroll, Pharrell Williams",
+        "director": "Garth Jennings",
+        "horario": [
+            {
+                "cine": "CINEMA OCHO - SALA HD",
+                "horarios": " CASTELLANO:      13:30 - 15:45 - 18:00  "
+            },
+            {
+                "cine": "CINEMA PARADISO - SALA HD",
+                "horarios": " CASTELLANO:      13:10 - 15:30 - 17:45  "
+            },
+            {
+                "cine": "CINEMA SAN MARTIN - SALA HD",
+                "horarios": " CASTELLANO:      13:30 - 20:15  "
+            }
+        ]
+    },
+    {
+        "titulo": "SPIDERMAN: SIN CAMINO A CASA  ",
+        "genero": "Acción, Aventuras",
+        "origen": "EEUU",
+        "duracion": "148 minutos.",
+        "actores": "Tom Holland, Zendaya, Jacob Batalon, Benedict Cumberbatch, Marisa Tomei, Alfred Molina, Jamie Foxx",
+        "director": "Jon Watts",
+        "horario": [
+            {
+                "cine": "CINEMA PARADISO - SALA HD",
+                "horarios": " CASTELLANO:      15:30  "
+            },
+            {
+                "cine": "CINEMA ROCHA - SALA HD",
+                "horarios": " CASTELLANO:      16:15 - 19:30  "
+            }
+        ]
+    },
+    {
+        "titulo": "TIEMPOS VIOLENTOS - RE ESTRENO  ",
+        "genero": "Thriller",
+        "origen": "EEUU",
+        "duracion": "154 minutos.",
+        "actores": " John Travolta, Samuel L. Jackson, Uma Thurman, Bruce Willis, Ving Rhames, Harvey Keitel, Tim Roth, Amanda Plummer, María de Medeiros",
+        "director": "Quentin Tarantino",
+        "horario": [
+            {
+                "cine": "CINEMA PARADISO - SALA HD",
+                "horarios": " SUBTITULADA:      19:30 - 22:30  "
+            }
+        ]
+    },
+    {
+        "titulo": "UNCHARTED: FUERA DEL MAPA  ",
+        "genero": "Acción, Aventuras",
+        "origen": "EEUU",
+        "duracion": "115 minutos.",
+        "actores": "Tom Holland, Mark Wahlberg, Antonio Banderas, Tati Gabrielle, Sophia Taylor Ali, Patricia Meeden, Sarah Petrick",
+        "director": "Ruben Fleischer",
+        "horario": [
+            {
+                "cine": "CINEMA PARADISO - SALA HD",
+                "horarios": " CASTELLANO:      13:15 - 18:40 - 23:10  "
+            }
+        ]
+    },
+
+
+    {
+        "titulo": " Doctor Strange in the Multiverse of Madness",
+        "genero": " Fantasía, Acción, Aventura, Terror",
+        "origen": " USA",
+        "duracion": " Sam Raimi",
+        "actores": " Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Xochitl Gomez, Michael Stuhlbarg, Adam Hugill",
+        "director": " Sam Raimi"
+    },
+    {
+        "titulo": " DC League Super Pets",
+        "genero": " Animación, Familia, Comedia, Ciencia Ficción, Acción",
+        "origen": " EEUU",
+        "duracion": " Jared Stern",
+        "actores": " Dwayne Johnson, Kevin Hart, Keanu Reeves, Vanessa Bayer, John Krasinski, Diego Luna, Natasha Lyonne, Kate McKinnon, Jameela Jamil, Marc Maron",
+        "director": " Jared Stern"
+    },
+    {
+        "titulo": " Top Gun Maverick",
+        "genero": " Acción, Drama",
+        "origen": " Estados Unidos",
+        "duracion": " Joseph Kosinski",
+        "actores": " Tom Cruise, Val Kilmer, Miles Teller, Ed Harris, Jennifer Connelly, Glen Powell, Manny Jacinto, Charles Parnell, Jay Ellis, Bashir Salahuddin",
+        "director": " Joseph Kosinski"
+    },
+    {
+        "titulo": " Lightyear",
+        "genero": " Animación, Familia, Ciencia Ficción",
+        "origen": " Estados Unidos",
+        "duracion": " Angus MacLane",
+        "actores": " Chris Evans",
+        "director": " Angus MacLane"
+    },
+    {
+        "titulo": " Minions The Rise of Gru",
+        "genero": " Familia, Animación, Acción, Aventura, Comedia",
+        "origen": " Estados Unidos, Francia, Japón",
+        "duracion": " Kyle Balda",
+        "actores": " Steve Carell, Pierre Coffin, Russell Brand, Alan Arkin, Taraji P. Henson, Jean-Claude Van Damme, Lucy Lawless, Dolph Lundgren, Danny Trejo, Michelle Yeoh",
+        "director": " Kyle Balda"
+    },
+    {
+        "titulo": " Black Panther Wakanda Forever",
+        "genero": " Acción, Aventura, Ciencia Ficción",
+        "origen": " USA",
+        "duracion": " Ryan Coogler",
+        "actores": " Lupita Nyong'o, Letitia Wright, Danai Gurira, Winston Duke, Martin Freeman, Daniel Kaluuya, Angela Bassett, Tenoch Huerta, Michaela Coel, Dominique Thorne",
+        "director": " Ryan Coogler"
+    },
+    {
+        "titulo": " Avatar 2",
+        "genero": " Acción, Aventura, Ciencia Ficción, Fantasía",
+        "origen": " USA",
+        "duracion": " James Cameron",
+        "actores": " Sam Worthington, Kate Winslet, Zoe Saldana, Sigourney Weaver, Oona Chaplin, Stephen Lang, Cliff Curtis, Giovanni Ribisi, CCH Pounder, Joel David Moore",
+        "director": " James Cameron"
+    }
