@@ -1,4 +1,8 @@
 Pasos para utilizar el programa
+1.Nos paramos en la carpeta src y instalamos las librerias utilizadas en este caso beautifulsoup4 con el comando:
+pip install -r requirements.txt
+2. Vamos al twsScapperTP1.py y corremos el archivo
+
 en el archivo src obtendremos twsScapperTP1.Py
 esta clase es la main donde se ejecutan dos funciones 
 MovieCinema.getMoviesCinema(),MovieCinpolis.getMoviesCinepolis() 
