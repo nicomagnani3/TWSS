@@ -1,0 +1,5 @@
+El archivo movies.json es el json completo de las urls que se pusieron en la practica,
+El sistema guarda los 4 json ld de las urls y los almacena en movies.json
+
+El archivo merge.json es el resultado de mergear movies.json, en este se sacan los datos repetidos
+y se muestran los mas interesantes a mi eleccion que son el contexto, nombre pelicula, actores,directores y genero

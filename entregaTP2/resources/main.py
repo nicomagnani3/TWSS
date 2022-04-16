@@ -1,7 +1,3 @@
-import bs4 
-import requests
-import json
-import html
 from movies import Movies
 
 

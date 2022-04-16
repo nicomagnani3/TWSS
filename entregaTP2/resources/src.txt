@@ -1,0 +1,7 @@
+El archivo main.py instancia a la clase Movies y llama al metodo save_movies_json
+este metodo recorre las urls que se pusieron en el TP, obtiene el json ld de cada url y guarda
+el json obtenido en un array, luego guarda en un archivo llamado movies.json todos los json de las urls 
+
+Luego Main.py llama al metodo mergeMovies este metodo obtiene el json donde estan todas las movies y va juntando los datos
+de interes de cada movie y luego arma un json con los datos de interes, sacando cada repetido de los datos que tienen una lista
+como son actor, director,genero y luego guarda en un archivo llamado merge.json el json que se armo con los datos de interes

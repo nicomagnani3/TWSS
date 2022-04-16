@@ -6,10 +6,12 @@ import simplejson
 class Movies():
     def __init__(self):
         self.urlMovies = [
+            {'url': 'https://www.metacritic.com/movie/the-batman/', 'name': 'metacritic'},
             {'url': 'https://www.rottentomatoes.com/m/the_batman', 'name': 'rottentomatoes'},
             {'url': 'https://www.imdb.com/title/tt1877830/?ref_=fn_al_tt_1',
              'name': 'imdb'},
             {'url': 'https://www.ecartelera.com/peliculas/the-batman/', 'name': 'ecartelera'}
+            
         ]
 
     def save_movies_json(self):

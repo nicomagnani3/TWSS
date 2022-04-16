@@ -1,0 +1,32 @@
+¿Que formato y vocabulario utiliza cada URL?
+Utilizan json ld 
+¿Cuán complejos son, en comparación con los scrappers que escribió en el TP1, los extractores que tuvo que escribir ahora?
+Con el uson de json ld en las webs se hizo mucho mas facil el scrapper, ya qe se  puede reutlizar y esta toda la informacion junta
+
+¿Tuvo que hacer uno para cada página o pudo reutilizarlos? Si encontráramos otro sitio que hable de una pelicula utilizando Schema.org y Microdatos o JSON-LD como mecanismo de serialización, ¿podríamos utilizar estos extractores?
+Pude reutilizarlos, si otra web utilizando la pelicula de batman con json ld y schema.org podria adaptarse a los extractores
+
+¿Cuáles cree que son las ventajas y desventajas de utilizar Microdata?
+La ventaja es que es visible en el dom y puedo ver al inspeccionar si usa o no micro data y 
+las propiedades que tiene al inspeccionar el elemento que estoy queriendo buscar
+La desventaja es que tengo que agregar elemento por elemento si quiero utilizar microdata en mi sitio
+
+¿Cuáles cree que son las ventajas y desventajas de utilizar JSON-LD?
+La ventaja de json ld es que se agrega solo una vez en mi sitio en el head o body del dom,
+los metadas no se integran en el html
+usa formato json que es uno de los mayores usados en la web, facil de leer y de manipular 
+
+
+¿Cuáles cree que son las ventajas y desventajas de utilizar el vocabulario de Schema.org?
+La ventaja es que esta estandarizado y documentacion entendible
+desventaja  case-sensitive, lo que significa que utilizar mayúscula o minúscula puede provocar diferencias semánticas significativas.
+Si utilizas una propiedad para un tipo no compatible Google no puede interpretar el valor pertinente y clasifica el código como erróneo
+
+
+¿Cuáles cree que son los desafíos que todavía quedan por resolver?
+
+En mi caso en el trabajo 2 la ul de https://www.rottentomatoes.com/m/the_batman los nombre
+de los actores los traia como NA, es algo que no pude solucionar
+La url https://www.metacritic.com/movie/the-batman/ al realizar el get para obtener el text arrojaba el error
+  Exception has occurred: TooManyRedirects Exceeded 30 redirects.
+  
