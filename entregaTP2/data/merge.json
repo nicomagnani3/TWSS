@@ -1,0 +1,26 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Movie",
+    "name": "The Batman",
+    "actor": [
+        "Andy Serkis",
+        "NA",
+        "Colin Farrell",
+        "Zoë Kravitz",
+        "Peter Sarsgaard",
+        "Jeffrey Wright",
+        "Robert Pattinson"
+    ],
+    "director": [
+        "Matt Reeves",
+        "NA"
+    ],
+    "genre": [
+        "Acción",
+        "Crimen",
+        "Adventure",
+        "Crime",
+        "Action",
+        "Drama"
+    ]
+}
