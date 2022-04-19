@@ -5,8 +5,7 @@ import simplejson
 
 class Movies():
     def __init__(self):
-        self.urlMovies = [
-            {'url': 'https://www.metacritic.com/movie/the-batman/', 'name': 'metacritic'},
+        self.urlMovies = [        
             {'url': 'https://www.rottentomatoes.com/m/the_batman', 'name': 'rottentomatoes'},
             {'url': 'https://www.imdb.com/title/tt1877830/?ref_=fn_al_tt_1',
              'name': 'imdb'},
@@ -38,6 +37,7 @@ class Movies():
         actors=[]
         director=[]
         genre=[]
+        duration=[]
         name=""
         for movie in movies:
             movie
@@ -45,8 +45,10 @@ class Movies():
             actors.extend(Movies.getActors(movie))
             director.extend(Movies.getDirectors(movie))
             genre.extend(movie.get("genre"))
-
-        Movies.jsonMovies(name,actors,director,genre)
+            movie
+            duration.extend(Movies.getDuration(movie))
+            duration
+        Movies.jsonMovies(name,actors,director,genre,duration)
 
     def getDirectors(movie):
         arrayDirectors=[]
@@ -75,8 +77,14 @@ class Movies():
 
     def removeDuplicates(array):
         return set(array)
+    
+    def getDuration(movie):
+        arrayDuration=[]
+        if movie.get("duration") != None:
+                arrayDuration.append(movie.get("duration"))           
+        return arrayDuration
 
-    def jsonMovies(name,actors,director,genre):
+    def jsonMovies(name,actors,director,genre,duration):
         jsonMovie= {
             "@context": "http://schema.org",
             "@type": "Movie",
@@ -84,6 +92,7 @@ class Movies():
             "actor":Movies.removeDuplicates(actors),
             "director":Movies.removeDuplicates(director),
             "genre":Movies.removeDuplicates(genre),
+            "duration":Movies.removeDuplicates(duration),
         }   
         with open("entregaTP2/data/merge.json", "w", encoding='utf8') as outfile:
             outfile.write(simplejson.dumps(jsonMovie, indent=4, ensure_ascii=False,iterable_as_array=True))

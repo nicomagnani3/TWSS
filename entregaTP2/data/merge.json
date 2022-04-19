@@ -3,24 +3,27 @@
     "@type": "Movie",
     "name": "The Batman",
     "actor": [
-        "Andy Serkis",
-        "NA",
-        "Colin Farrell",
-        "Zoë Kravitz",
-        "Peter Sarsgaard",
         "Jeffrey Wright",
-        "Robert Pattinson"
-    ],
-    "director": [
-        "Matt Reeves",
+        "Zoë Kravitz",
+        "Robert Pattinson",
+        "Andy Serkis",
+        "Colin Farrell",
+        "Peter Sarsgaard",
         "NA"
     ],
+    "director": [
+        "NA",
+        "Matt Reeves"
+    ],
     "genre": [
-        "Acción",
-        "Crimen",
         "Adventure",
         "Crime",
+        "Crimen",
+        "Acción",
         "Action",
         "Drama"
+    ],
+    "duration": [
+        "PT2H56M"
     ]
 }

@@ -99,9 +99,9 @@
             "bestRating": "100",
             "description": "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show.",
             "name": "Tomatometer",
-            "ratingCount": 458,
+            "ratingCount": 460,
             "ratingValue": "85",
-            "reviewCount": 458,
+            "reviewCount": 460,
             "worstRating": "0"
         },
         "author": [
@@ -150,9 +150,9 @@
             }
         ],
         "genre": [
-            "Crime",
-            "Adventure",
             "Drama",
+            "Adventure",
+            "Crime",
             "Action"
         ],
         "image": "https://resizing.flixster.com/wCeMkwGtJnDI_3idIpt_bP9E6Ng=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/119/558/thumb_E73CC7F6-2A6D-4091-8B93-920C6DE6D730.jpg",
@@ -175,12 +175,12 @@
             },
             "author": {
                 "@type": "Person",
-                "name": "gimgyurae"
+                "name": "eddie_baggins"
             },
-            "dateCreated": "2022-03-01",
+            "dateCreated": "2022-03-03",
             "inLanguage": "English",
-            "name": "Long, yet interesting",
-            "reviewBody": "3 hours hero movie... It might be quite an adventure for those who expect action-packed movies like Avengers or The dark knight.\n\nThe batman is not an action movie. It&apos;s a noir detective film.. Just enjoy the dark, moisty mood this movie has.\n\nIf you enjoyed movies like Zodiac, Se7en i&apos;m sure you&apos;ll love it Go to the theatre immediately.",
+            "name": "Batman meets Seven in this moody and grand epic",
+            "reviewBody": "Disclaimer - This is a spoiler free review\n\nWorries about yet another Batman coming into the fray should be alleviated very quickly as director Matt Reeves version of the caped crusader done by the way of Seven takes hold early on and refuses too let go on its way to a well earned three hour runtime that is full of surprises, atmosphere, historical nods and artistry as Reeve&apos;s David Fincher like epic takes us on a memorable Gotham adventure that may divide casual fans, all the while becoming a new favourite for long term fans of DC Comics most famous creation.\n\nThose expecting a film similar to Christopher Nolan&apos;s duly praised Dark Knight trilogy may find themselves disappointed where Reeves is clearly taking Robert Pattinson&apos;s portrayal of the vigilante seeking Bruce Wayne, here caught up in a mysterious game run by the devious Riddler who is targeting high end Gotham figures in a series of grizzly murders, as while Reeve&apos;s film does share some similar DNA to Nolan&apos;s version of Batman (serious in tone and dark in more ways than one) this is a far less action oriented ride that relishes in the small moments as much as it does when its scattered collection of action does make its way to the forefront.\n\nTaking its inspiration from various crime/thrillers found throughout feature film history and undoubtedly featuring a narrative taken from Batman&apos;s famed detective oriented tales such as The Long Halloween, The Killing Joke and Year One, The Batman thankfully skips past bothering with yet another origin story as we find Pattinson&apos;s bruised and battered crusader of justice two years into his crime fighting life as his become a creature of the night struggling to balance being the billionaire heir his known for and the hero no one understands and by moving past these steps Reeves is allowed to fully focus on the story at hand that allows his creativity as a director and his loaded casts talents to shine.\n\nNot a household name but a director whose failed to put a foot wrong since his 2008 breakthrough with Cloverfield and then his continued success with horror remake Let Me In and his double hit of blockbuster goodness with Dawn of and War for the Planet of the Apes films, Reeves with valuable help from Dune cinematographer Greig Fraser and one of composer Michael Giacchino&apos;s best scores in years embeds every frame of The Batman with something to take in or be wowed by and the film is easily up there with one of the most impressively put together comic book films and blockbusters in general of the modern era, even if its more slow paced nature and untypical narrative may not be what certain viewers are after from this long-standing property.\n\nAlso helping out the films cause in a big way is the work of all main players found within Reeve&apos;s rain-soaked affair with the likes of Jeffrey Wright as everyone&apos;s favourite policeman Lieutenant James Gordon, John Turturro as crime matriarch Carmine Falcone, the unrecognizable Colin Farrell as the very un-Danny DeVito Oz/The Penguin and Zoe Kravitz as Selina Kyle/Catwoman all putting in good work that is overshadowed by the one-two double punch of Pattinson&apos;s tormented Wayne and Paul Dano&apos;s skin crawling take on The Riddler, with the two polar opposites giving us something as memorable and close to greatness as we&apos;d ever likely get to Christian Bale&apos;s and Heath Ledger&apos;s double act in The Dark Knight.\n\nA divisive choice early on, Pattinson proves a worthy owner of the famous character with his noteworthy work over the last few years proving to be no fluke and Edward Cullen a mere sparkling dream of yesterday and his both imposing and vulnerable here, a hard mix to get right but one he nails in all instances and while not hogging huge screen time in the overall scheme of things, Dano&apos;s work as the films main foe here is menacing, unnerving and glorious to behold with Eli Sunday being transported to the modern era sans his Bible and replaced with wide rimmed specs hidden under a hideous mask, while its a hard task to be considered as dastardly great as Ledger was in his Oscar winning role as Batman&apos;s arch rival, Dano does a job that can be considered right up there in the same league as he gives The Batman an unwieldy edge not often found in such fare.\n\nThere&apos;s no question this serious and moody take on Batman&apos;s world will be compared often to The Dark Knight with many arguments sure to ensue, if you were to ask me here and now what I think, I would say its unlikely anything will ever reach the heights of Nolan&apos;s beloved game changer but this Batman comes mightily close which is some form of mighty feed indeed.\n\nFinal Say -\n\nA very different type of Hollywood blockbuster that also sees Batman taken in a new and exciting direction when it comes to feature films, The Batman is an artistic and considered epic that sets in motion a tale that can&apos;t be continued soon enough.\n\n5 shades of eyeliner out of 5.\n\nFor more reviews visit Jordan and Eddie (The Movie Guys)",
             "reviewRating": {
                 "@type": "Rating",
                 "worstRating": 1,
@@ -190,10 +190,10 @@
         },
         "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingCount": 327114,
+            "ratingCount": 347969,
             "bestRating": 10,
             "worstRating": 1,
-            "ratingValue": 8.3
+            "ratingValue": 8.2
         },
         "contentRating": "16",
         "genre": [
