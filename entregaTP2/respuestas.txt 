@@ -29,4 +29,5 @@ En mi caso en el trabajo 2 la ul de https://www.rottentomatoes.com/m/the_batman 
 de los actores los traia como NA, es algo que no pude solucionar
 La url https://www.metacritic.com/movie/the-batman/ al realizar el get para obtener el text arrojaba el error
   Exception has occurred: TooManyRedirects Exceeded 30 redirects.
-  
+
+
