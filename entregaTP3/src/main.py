@@ -3,7 +3,7 @@ from rdflib import Graph, Literal, RDF, RDFS, URIRef, OWL, Namespace
 from rdflib.namespace import FOAF , XSD
 from datetime import datetime
 from scapper_cinema import getMoviesCinema
-from scrapper_imdb import recolectar_imdb
+from scrapper_imdb import getIMB
 
 BASE_URL = Namespace("http://www.semanticweb.org/")
 BASE_SCHEMAORG_URL = Namespace("https://schema.org/")
@@ -106,15 +106,15 @@ def addFunciones(movie):
    
     
 if __name__ == "__main__":
-    #getMoviesCinema() 
-    #recolectar_imdb()
+    getMoviesCinema() 
+    getIMB()
     with open('entregaTP3/data/imdb.json', encoding='utf-8') as fh:
         json_peliculas = json.load(fh)
 
     with open('entregaTP3/data/cinemalp.json', encoding='utf-8') as fh:
         json_funciones = json.load(fh)
 
-    g.parse("entregaTP3/data/movies.ttl", format='ttl', encoding="utf-8")
+    g.parse("entregaTP3/data/ontology.ttl", format='ttl', encoding="utf-8")
 
     for movie in json_peliculas:
         addMovies(movie)
@@ -123,4 +123,4 @@ if __name__ == "__main__":
         addFunciones(movie)
 
 
-    g.serialize("entregaTP3/data/output.ttl", format="ttl", encoding="utf-8")
+    g.serialize("entregaTP3/data/result.ttl", format="ttl", encoding="utf-8")

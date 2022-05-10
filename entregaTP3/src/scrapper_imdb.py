@@ -1,10 +1,9 @@
 import json
-from bs4 import BeautifulSoup
 import requests
 import bs4
 
 
-def recolectar_imdb():
+def getIMB():
             jsonMovies = []
             page = requests.get('https://www.imdb.com/chart/moviemeter/?ref_=nv_mv_mpm').text
             soup = bs4.BeautifulSoup(page, "html.parser")
