@@ -2,122 +2,125 @@ import json
 from rdflib import Graph, Literal, RDF, RDFS, URIRef, OWL, Namespace
 from rdflib.namespace import FOAF , XSD
 from datetime import datetime
+from scapper_cinema import getMoviesCinema
 from scrapper_imdb import recolectar_imdb
-from scrapper_cinemalp import persistir
 
 BASE_URL = Namespace("http://www.semanticweb.org/")
 BASE_SCHEMAORG_URL = Namespace("https://schema.org/")
-
 g = Graph()
 g.bind("schema", BASE_SCHEMAORG_URL)
 g.bind("sw", BASE_URL)
 
-def count_individuals_of(node_type: str, url):
+
+def posicion(node_type: str, url):
     return len(list(g.triples((None, RDF.type, url[node_type]))))
 
-def add_individual(node_type, label, url=BASE_URL):
-    
-    for s, p, o in g.triples((None, RDFS.label, Literal(label))):
+def addIndividual(tipo, text, url=BASE_URL):    
+    for s, p, o in g.triples((None, RDFS.label, Literal(text))):
         return s
 
-    individual= url[node_type.lower()+str(count_individuals_of(node_type, url))]
-    g.add((individual, RDF.type, url[node_type]))
-    g.add((individual, RDFS.label, Literal(label)))
-    g.add((individual, BASE_SCHEMAORG_URL["name"], Literal(label)))
-    return individual 
+    urlTipo= url[tipo.lower()+str(posicion(tipo, url))]
+    g.add((urlTipo, RDF.type, url[tipo]))
+    g.add((urlTipo, RDFS.label, Literal(text)))
+    g.add((urlTipo, BASE_SCHEMAORG_URL["name"], Literal(text)))
+    return urlTipo 
 
-def add_actor(movie, actor):
-    actor= add_individual(
+def addActors(movie, actor):
+    actor= addIndividual(
             actor.get("@type"),
             actor.get("name"),
             url= BASE_SCHEMAORG_URL
         )
     g.add((movie, BASE_SCHEMAORG_URL["actor"], actor))
 
-def add_genre(movie, genre):
-    g.add((movie, BASE_SCHEMAORG_URL["genre"], Literal(genre)))
-    
-def add_director(movie, director):
-    g.add((movie, BASE_SCHEMAORG_URL["director"], add_individual(
-            director.get("@type"),
-            director.get("name"),
-            url= BASE_SCHEMAORG_URL
-        )))
 
-def add_rating(movie, rating):
-    rating_individual= BASE_URL["aggregateRating"+str(count_individuals_of("AggregateRating", url=BASE_SCHEMAORG_URL))]
-
+def addRanting(movie, rating):
+    rating_individual= BASE_URL["aggregateRating"+str(posicion("AggregateRating", url=BASE_SCHEMAORG_URL))]
     g.add((rating_individual, RDF.type, BASE_SCHEMAORG_URL["AggregateRating"]))
-    g.add((rating_individual, BASE_SCHEMAORG_URL["ratingValue"], Literal(rating.get("ratingValue"), datatype=XSD.double)))
+    if (rating is not None):
+        g.add((rating_individual, BASE_SCHEMAORG_URL["ratingValue"], Literal(rating.get("ratingValue"), datatype=XSD.double)))
     g.add((movie, BASE_SCHEMAORG_URL["aggregateRating"], rating_individual))
 
 
-def add_image(image):
-    image_individual= BASE_URL["image"+str(count_individuals_of("ImageObject", url=BASE_SCHEMAORG_URL))]
-    g.add((image_individual, RDF.type, BASE_SCHEMAORG_URL["ImageObject"]))
-    g.add((image_individual, BASE_SCHEMAORG_URL["contentUrl"], Literal(image)))
-    return image_individual
+def addImageSemanticWeb(imageurl):
+    img_obj= BASE_URL["image"+str(posicion("ImageObject", url=BASE_SCHEMAORG_URL))]
+    img_obj
+    g.add((img_obj, RDF.type, BASE_SCHEMAORG_URL["ImageObject"]))
+    g.add((img_obj, BASE_SCHEMAORG_URL["contentUrl"], Literal(imageurl)))
+    return img_obj
 
-def add_movie(movie):
-    movie_individual= add_individual(
+def addMovies(movie):
+    pelicula= addIndividual(
         movie.get("@type"),
         movie.get("name"),
         url= BASE_SCHEMAORG_URL
-    )
-    
-    g.add((movie_individual, BASE_SCHEMAORG_URL["duration"], Literal(movie.get("duration"), datatype= XSD.duration))) if movie.get("duration") else None
-    g.add((movie_individual, BASE_SCHEMAORG_URL["image"], add_image(movie.get("image")))) if movie.get("image") else None
+    )        
+    pelicula
+    g.add((URIRef(pelicula), BASE_SCHEMAORG_URL["duration"], Literal(movie.get("duration"), datatype= XSD.duration))) 
+    g.add((URIRef(pelicula), BASE_SCHEMAORG_URL["image"], addImageSemanticWeb(movie.get("image")))) 
+    if (movie.get("datePublished") is not None):
+         g.add((URIRef(pelicula), BASE_SCHEMAORG_URL["datePublished"], Literal(datetime.strptime(movie.get("datePublished"), '%Y-%m-%d').isoformat(), datatype=XSD.date))) 
+    actor=[]
+    genre=[]
+    director=[]
+    for actor in movie.get("actor"):
+        actor= addIndividual(
+            actor.get("@type"),
+            actor.get("name"),
+            url= BASE_SCHEMAORG_URL
+        )
+        g.add((URIRef(pelicula), BASE_SCHEMAORG_URL["actor"], actor))
 
-    g.add((movie_individual, BASE_SCHEMAORG_URL["datePublished"], Literal(datetime.strptime(movie.get("datePublished"), '%Y-%m-%d').isoformat(), datatype=XSD.date))) if movie.get("datePublished") else None
+    for genre in movie.get("genre"):
+        g.add((URIRef(pelicula), BASE_SCHEMAORG_URL["genre"], Literal(genre)))
+   
+    for director in movie.get("director"):
+        g.add((URIRef(pelicula), BASE_SCHEMAORG_URL["director"], addIndividual(
+            director.get("@type"),
+            director.get("name"),
+            url= BASE_SCHEMAORG_URL
+        )))   
 
-    for actor in movie.get("actor") or []:
-        add_actor(movie_individual, actor)
+    addRanting(URIRef(pelicula), movie.get("aggregateRating"))
 
-    for genre in movie.get("genre") or []:
-        add_genre(movie_individual, genre)
-        
-    for director in movie.get("director") or []:
-        add_director(movie_individual, director)
+def addFunciones(movie):
 
-    add_rating(movie_individual, movie.get("aggregateRating"))
-
-def add_funciones(movie):
-
-        nodo = add_individual("Movie", movie.get("name"), BASE_SCHEMAORG_URL)
+        peli = addIndividual("Movie", movie.get("name"), BASE_SCHEMAORG_URL)
+        peli
         for funcion in movie.get("events"):
-            funcion_individual= BASE_URL["screeningEvent"+str(count_individuals_of("ScreeningEvent", url=BASE_SCHEMAORG_URL))]
-            
-            g.add((funcion_individual, RDF.type, BASE_SCHEMAORG_URL["ScreeningEvent"]))
-            g.add((funcion_individual, BASE_SCHEMAORG_URL["videoFormat"], Literal(funcion.get("videoFormat")))) 
-
-            g.add((funcion_individual, BASE_SCHEMAORG_URL["doorTime"], Literal(datetime.strptime(funcion.get("doorTime"), '%Y-%m-%d %H:%M').isoformat(), datatype= XSD.dateTime))) 
-            g.add((funcion_individual, BASE_SCHEMAORG_URL["workPresented"], nodo)) 
+            urlSemanticWeb= BASE_URL["screeningEvent"+str(posicion("ScreeningEvent", url=BASE_SCHEMAORG_URL))]
+            urlSemanticWeb
+            funcion
+            g.add((urlSemanticWeb, RDF.type, BASE_SCHEMAORG_URL["ScreeningEvent"]))
+            g.add((urlSemanticWeb, BASE_SCHEMAORG_URL["videoFormat"], Literal(funcion.get("videoFormat")))) 
+            g.add((urlSemanticWeb, BASE_SCHEMAORG_URL["doorTime"], Literal(funcion.get("doorTime")))) 
+            g.add((urlSemanticWeb, BASE_SCHEMAORG_URL["workPresented"], peli)) 
             
             cine= funcion.get("location")
-            cine_individual= add_individual(
+            cine_individual= addIndividual(
                 cine.get("@type"),
                 cine.get("name"),
                 url= BASE_SCHEMAORG_URL)
 
-            g.add((funcion_individual, BASE_SCHEMAORG_URL["location"], cine_individual)) 
+            g.add((urlSemanticWeb, BASE_SCHEMAORG_URL["location"], cine_individual)) 
    
     
 if __name__ == "__main__":
-    persistir()
-    recolectar_imdb()
-    with open('data/imdb.json', encoding='utf-8') as fh:
+    #getMoviesCinema() 
+    #recolectar_imdb()
+    with open('entregaTP3/data/imdb.json', encoding='utf-8') as fh:
         json_peliculas = json.load(fh)
 
-    with open('data/cinemalp.json', encoding='utf-8') as fh:
+    with open('entregaTP3/data/cinemalp.json', encoding='utf-8') as fh:
         json_funciones = json.load(fh)
 
-    g.parse("data/movies.ttl", format='ttl', encoding="utf-8")
+    g.parse("entregaTP3/data/movies.ttl", format='ttl', encoding="utf-8")
 
     for movie in json_peliculas:
-        add_movie(movie)
+        addMovies(movie)
 
     for movie in json_funciones:
-        add_funciones(movie)
+        addFunciones(movie)
 
 
-    g.serialize("data/output.ttl", format="ttl", encoding="utf-8")
+    g.serialize("entregaTP3/data/output.ttl", format="ttl", encoding="utf-8")

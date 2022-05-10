@@ -1,0 +1,425 @@
+[
+    {
+        "@type": "Movie",
+        "name": "DOCTOR STRANGE EN EL MULTIVERSO DE LA LOCURA  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-11 20:00",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-11 13:30 - 16:30 SUBTITULADA",
+                "videoFormat": "sala 4d+3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-11 23:00",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-11 19:45",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-11 13:45 - 16:45 SUBTITULADA",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-11 13:00",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-11 18:05 - 22:50 SUBTITULADA",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-11 13:15 SUBTITULADA",
+                "videoFormat": "sala atmos hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-11 17:00",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-11 14:00 - 20:00 - 23:00",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "DOWNTON ABBEY: UNA NUEVA ERA  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-11 17:10",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "ANIMALES FANTÁSTICOS 3 : LOS SECRETOS DE DUMBLEDORE  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-11 13:15 - 16:20 - 19:25 - 22:30",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-11 15:20 - 18:05 - 23:15",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-11 17:45 - 20:30 - 23:15",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "BATMAN  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-11 13:00 - 16:10 SUBTITULADA",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "COMPETENCIA OFICIAL  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-11 13:00 - 20:15",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "EL BUEN PATRÓN  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-11 13:00 - 20:50",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "EL EXORCISMO DE DIOS  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-11 23:10",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "EL HOMBRE DEL NORTE  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-11 17:10 - 20:25 - 23:10",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "EN LA MIRA  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-11 13:00 - 19:25 - 21:15 - 23:05",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "ENCANTO  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-11 15:45 - 20:25",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "JACK EN LA CAJA MALDITA  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-11 23:00",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "LA CIUDAD PERDIDA  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-11 13:00 - 18:00 - 20:30",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "LOS TIPOS MALOS  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-11 13:00 - 15:00",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-11 18:00",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "MORBIUS  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-11 20:30 - 23:00",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "SING 2  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-11 14:50",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-11 18:00",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "SONIC 2  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-11 13:00 - 15:30 - 18:00",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-11 13:00 - 15:30 - 20:30",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-11 15:20 - 17:45",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-11 13:00 - 15:20 - 18:10",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-11 13:00 - 15:30",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "SPIDERMAN: SIN CAMINO A CASA  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-11 13:00 - 22:50",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "UNCHARTED: FUERA DEL MAPA  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-11 15:30",
+                "videoFormat": "sala hd"
+            }
+        ]
+    }
+]

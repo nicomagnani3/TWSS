@@ -1,0 +1,56 @@
+@prefix : <http://www.semanticweb.org#> .
+@prefix sw: <http://www.semanticweb.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@base <http://www.semanticweb.org> .
+
+<http://www.semanticweb.org> rdf:type owl:Ontology .
+
+###  http://www.w3.org/2001/XMLSchema#duration
+xsd:duration rdf:type rdfs:Datatype .
+
+###  http://www.semanticweb.org#directs
+:directs rdf:type owl:ObjectProperty ;
+         owl:inverseOf schema:director ;
+         rdfs:domain schema:Person ;
+         rdfs:range schema:Movie .
+
+
+###  http://www.semanticweb.org#hasSequel
+:hasSequel rdf:type owl:ObjectProperty ;
+           owl:inverseOf :sequelOf ;
+           rdfs:domain schema:Movie ;
+           rdfs:range schema:Movie .
+
+
+###  http://www.semanticweb.org#performsIn
+:performsIn rdf:type owl:ObjectProperty ;
+            owl:inverseOf schema:actor ;
+            rdfs:domain schema:Person ;
+            rdfs:range schema:Movie .
+
+
+###  http://www.semanticweb.org#isContainedIn
+:isContainedIn rdf:type owl:ObjectProperty ;
+          owl:inverseOf schema:workPresented ;
+          rdfs:domain schema:Movie ;
+          rdfs:range schema:ScreeningEvent .
+
+
+###  http://www.semanticweb.org#hasSequelOf
+:hasSequelOf rdf:type owl:ObjectProperty ,
+          owl:TransitiveProperty ;
+          rdfs:domain schema:Movie ;
+          rdfs:range schema:Movie .
+
+
+###  http://www.semanticweb.org#worksWith
+:worksWith rdf:type owl:ObjectProperty ,
+                    owl:SymmetricProperty ,
+                    owl:IrreflexiveProperty ;
+           rdfs:domain schema:Person ;
+           rdfs:range schema:Person .
