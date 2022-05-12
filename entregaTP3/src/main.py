@@ -19,11 +19,12 @@ def addIndividual(tipo, text, url=BASE_URL):
     for s, p, o in g.triples((None, RDFS.label, Literal(text))):
         return s
 
-    urlTipo= url[tipo.lower()+str(posicion(tipo, url))]
-    g.add((urlTipo, RDF.type, url[tipo]))
-    g.add((urlTipo, RDFS.label, Literal(text)))
-    g.add((urlTipo, BASE_SCHEMAORG_URL["name"], Literal(text)))
-    return urlTipo 
+    label = label.replace(":", "")
+    url= BASE_URL[label.replace(" ", "_")]
+    g.add((url, RDF.type, url[tipo]))
+    g.add((url, RDFS.label, Literal(text)))
+    g.add((url, BASE_SCHEMAORG_URL["name"], Literal(text)))
+    return url 
 
 def addActors(movie, actor):
     actor= addIndividual(
