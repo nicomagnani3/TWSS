@@ -1,103 +1,37 @@
 [
     {
         "@type": "Movie",
-        "name": "DOCTOR STRANGE EN EL MULTIVERSO DE LA LOCURA  ",
+        "name": "EL SISTEMA K.E.O.P.S  ",
         "events": [
-            {
-                "@type": "ScreeningEvent",
-                "location": {
-                    "@type": "MovieTheater",
-                    "name": "CINEMA CITY"
-                },
-                "doorTime": "2022-05-11 20:00",
-                "videoFormat": "sala 3d"
-            },
-            {
-                "@type": "ScreeningEvent",
-                "location": {
-                    "@type": "MovieTheater",
-                    "name": "CINEMA CITY"
-                },
-                "doorTime": "2022-05-11 13:30 - 16:30 SUBTITULADA",
-                "videoFormat": "sala 4d+3d"
-            },
-            {
-                "@type": "ScreeningEvent",
-                "location": {
-                    "@type": "MovieTheater",
-                    "name": "CINEMA CITY"
-                },
-                "doorTime": "2022-05-11 23:00",
-                "videoFormat": "sala hd"
-            },
-            {
-                "@type": "ScreeningEvent",
-                "location": {
-                    "@type": "MovieTheater",
-                    "name": "CINEMA OCHO"
-                },
-                "doorTime": "2022-05-11 19:45",
-                "videoFormat": "sala 3d"
-            },
-            {
-                "@type": "ScreeningEvent",
-                "location": {
-                    "@type": "MovieTheater",
-                    "name": "CINEMA OCHO"
-                },
-                "doorTime": "2022-05-11 13:45 - 16:45 SUBTITULADA",
-                "videoFormat": "sala hd"
-            },
-            {
-                "@type": "ScreeningEvent",
-                "location": {
-                    "@type": "MovieTheater",
-                    "name": "CINEMA PARADISO"
-                },
-                "doorTime": "2022-05-11 13:00",
-                "videoFormat": "sala 3d"
-            },
-            {
-                "@type": "ScreeningEvent",
-                "location": {
-                    "@type": "MovieTheater",
-                    "name": "CINEMA PARADISO"
-                },
-                "doorTime": "2022-05-11 18:05 - 22:50 SUBTITULADA",
-                "videoFormat": "sala hd"
-            },
             {
                 "@type": "ScreeningEvent",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "CINEMA ROCHA"
                 },
-                "doorTime": "2022-05-11 13:15 SUBTITULADA",
-                "videoFormat": "sala atmos hd"
-            },
-            {
-                "@type": "ScreeningEvent",
-                "location": {
-                    "@type": "MovieTheater",
-                    "name": "CINEMA SAN MARTIN"
-                },
-                "doorTime": "2022-05-11 17:00",
-                "videoFormat": "sala 3d"
-            },
-            {
-                "@type": "ScreeningEvent",
-                "location": {
-                    "@type": "MovieTheater",
-                    "name": "CINEMA SAN MARTIN"
-                },
-                "doorTime": "2022-05-11 14:00 - 20:00 - 23:00",
+                "doorTime": "2022-05-13 13:00 - 23:15",
                 "videoFormat": "sala hd"
             }
         ]
     },
     {
         "@type": "Movie",
-        "name": "DOWNTON ABBEY: UNA NUEVA ERA  ",
+        "name": "LLAMAS DE VENGANZA  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-13 13:30 - 18:45 - 20:45 JUEVES A MARTES SUBTITULADA",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "UN AMOR CERCA DEL PARAISO  ",
         "events": [
             {
                 "@type": "ScreeningEvent",
@@ -105,7 +39,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA PARADISO"
                 },
-                "doorTime": "2022-05-11 17:10",
+                "doorTime": "2022-05-13 13:00 - 16:50 - 20:55",
                 "videoFormat": "sala hd"
             }
         ]
@@ -120,7 +54,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA OCHO"
                 },
-                "doorTime": "2022-05-11 13:15 - 16:20 - 19:25 - 22:30",
+                "doorTime": "2022-05-13 13:15 - 16:20 - 19:25 - 22:30",
                 "videoFormat": "sala hd"
             },
             {
@@ -129,7 +63,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA PARADISO"
                 },
-                "doorTime": "2022-05-11 15:20 - 18:05 - 23:15",
+                "doorTime": "2022-05-13 15:20 - 18:05 - 23:15",
                 "videoFormat": "sala hd"
             },
             {
@@ -138,7 +72,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA ROCHA"
                 },
-                "doorTime": "2022-05-11 17:45 - 20:30 - 23:15",
+                "doorTime": "2022-05-13 20:30 - 23:15",
                 "videoFormat": "sala hd"
             }
         ]
@@ -153,7 +87,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA SAN MARTIN"
                 },
-                "doorTime": "2022-05-11 13:00 - 16:10 SUBTITULADA",
+                "doorTime": "2022-05-13 15:30 - 22:30",
                 "videoFormat": "sala hd"
             }
         ]
@@ -168,7 +102,94 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA PARADISO"
                 },
-                "doorTime": "2022-05-11 13:00 - 20:15",
+                "doorTime": "2022-05-13 20:15",
+                "videoFormat": "sala hd"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "name": "DOCTOR STRANGE EN EL MULTIVERSO DE LA LOCURA  ",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-13 20:00 JUEVES A MARTES SUBTITULADA",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA CITY"
+                },
+                "doorTime": "2022-05-13 13:30 - 16:30 JUEVES A MARTES SUBTITULADA",
+                "videoFormat": "sala 4d+3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-13 19:45",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA OCHO"
+                },
+                "doorTime": "2022-05-13 13:45 - 16:45 JUEVES A MARTES SUBTITULADA",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-13 13:00",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA PARADISO"
+                },
+                "doorTime": "2022-05-13 18:05 - 22:50 JUEVES A MARTES SUBTITULADA",
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA ROCHA"
+                },
+                "doorTime": "2022-05-13 13:15 JUEVES A MARTES SUBTITULADA",
+                "videoFormat": "sala atmos hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-13 17:00",
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "CINEMA SAN MARTIN"
+                },
+                "doorTime": "2022-05-13 14:00 - 20:00 - 23:00",
                 "videoFormat": "sala hd"
             }
         ]
@@ -183,7 +204,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA PARADISO"
                 },
-                "doorTime": "2022-05-11 13:00 - 20:50",
+                "doorTime": "2022-05-13 13:00 - 20:50",
                 "videoFormat": "sala hd"
             }
         ]
@@ -198,7 +219,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA SAN MARTIN"
                 },
-                "doorTime": "2022-05-11 23:10",
+                "doorTime": "2022-05-13 23:10",
                 "videoFormat": "sala hd"
             }
         ]
@@ -213,7 +234,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA CITY"
                 },
-                "doorTime": "2022-05-11 17:10 - 20:25 - 23:10",
+                "doorTime": "2022-05-13 17:10 - 20:25 - 23:10",
                 "videoFormat": "sala hd"
             }
         ]
@@ -228,7 +249,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA PARADISO"
                 },
-                "doorTime": "2022-05-11 13:00 - 19:25 - 21:15 - 23:05",
+                "doorTime": "2022-05-13 13:00 - 19:10 - 23:15",
                 "videoFormat": "sala hd"
             }
         ]
@@ -243,7 +264,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA ROCHA"
                 },
-                "doorTime": "2022-05-11 15:45 - 20:25",
+                "doorTime": "2022-05-13 15:20 - 20:55",
                 "videoFormat": "sala hd"
             }
         ]
@@ -258,7 +279,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA OCHO"
                 },
-                "doorTime": "2022-05-11 23:00",
+                "doorTime": "2022-05-13 23:10",
                 "videoFormat": "sala hd"
             }
         ]
@@ -273,7 +294,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA SAN MARTIN"
                 },
-                "doorTime": "2022-05-11 13:00 - 18:00 - 20:30",
+                "doorTime": "2022-05-13 13:00 - 18:00 - 20:30",
                 "videoFormat": "sala hd"
             }
         ]
@@ -288,7 +309,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA CITY"
                 },
-                "doorTime": "2022-05-11 13:00 - 15:00",
+                "doorTime": "2022-05-13 13:00 - 15:00",
                 "videoFormat": "sala hd"
             },
             {
@@ -297,7 +318,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA OCHO"
                 },
-                "doorTime": "2022-05-11 18:00",
+                "doorTime": "2022-05-13 18:30",
                 "videoFormat": "sala hd"
             }
         ]
@@ -312,7 +333,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA SAN MARTIN"
                 },
-                "doorTime": "2022-05-11 20:30 - 23:00",
+                "doorTime": "2022-05-13 20:15",
                 "videoFormat": "sala hd"
             }
         ]
@@ -327,7 +348,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA PARADISO"
                 },
-                "doorTime": "2022-05-11 14:50",
+                "doorTime": "2022-05-13 14:40",
                 "videoFormat": "sala hd"
             },
             {
@@ -336,7 +357,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA SAN MARTIN"
                 },
-                "doorTime": "2022-05-11 18:00",
+                "doorTime": "2022-05-13 18:00",
                 "videoFormat": "sala hd"
             }
         ]
@@ -351,7 +372,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA CITY"
                 },
-                "doorTime": "2022-05-11 13:00 - 15:30 - 18:00",
+                "doorTime": "2022-05-13 13:00 - 15:30 - 18:00",
                 "videoFormat": "sala hd"
             },
             {
@@ -360,7 +381,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA OCHO"
                 },
-                "doorTime": "2022-05-11 13:00 - 15:30 - 20:30",
+                "doorTime": "2022-05-13 13:30 - 16:00 - 20:35",
                 "videoFormat": "sala hd"
             },
             {
@@ -369,7 +390,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA PARADISO"
                 },
-                "doorTime": "2022-05-11 15:20 - 17:45",
+                "doorTime": "2022-05-13 15:20 - 17:45",
                 "videoFormat": "sala hd"
             },
             {
@@ -378,7 +399,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA ROCHA"
                 },
-                "doorTime": "2022-05-11 13:00 - 15:20 - 18:10",
+                "doorTime": "2022-05-13 13:20 - 15:45 - 18:10",
                 "videoFormat": "sala hd"
             },
             {
@@ -387,7 +408,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA SAN MARTIN"
                 },
-                "doorTime": "2022-05-11 13:00 - 15:30",
+                "doorTime": "2022-05-13 13:00 - 15:30",
                 "videoFormat": "sala hd"
             }
         ]
@@ -402,7 +423,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA ROCHA"
                 },
-                "doorTime": "2022-05-11 13:00 - 22:50",
+                "doorTime": "2022-05-13 17:45",
                 "videoFormat": "sala hd"
             }
         ]
@@ -417,7 +438,7 @@
                     "@type": "MovieTheater",
                     "name": "CINEMA SAN MARTIN"
                 },
-                "doorTime": "2022-05-11 15:30",
+                "doorTime": "2022-05-13 15:30",
                 "videoFormat": "sala hd"
             }
         ]

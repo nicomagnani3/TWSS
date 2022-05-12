@@ -1,0 +1,9 @@
+¿Qué ventajas supone que hubiese obtenido si en los trabajos anteriores contaba con la información descrita en OWL?
+
+¿Qué ventajas tiene utilizar vocabularios existentes en lugar de crear los propios?
+
+¿Utilizó solamente clases y propiedades de un único vocabulario?
+
+¿Que impacto hubiese tenido al momento de almacenar la información obtenida el contar con un modelo como OWL?
+¿Qué diferencia hay entre utilizar un modelo de objetos para integrar la información que obtuvo (como hizo anteriormente) con utilizar tripletas?
+¿Cuán dificil es generar archivos OWL en otros formatos (por ejemplo N3, RDF/XML) a partir de la información que tiene? Y con su scrapper.
