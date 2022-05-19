@@ -1,9 +1,16 @@
 ¿Qué ventajas supone que hubiese obtenido si en los trabajos anteriores contaba con la información descrita en OWL?
+Para recuperar la informacion hubiese sido mas rapido, facil y organizado
 
 ¿Qué ventajas tiene utilizar vocabularios existentes en lugar de crear los propios?
+Ya estan predefinidos y escritos por un estandar donde vuelcan la informacion de manera mas eficiente
 
 ¿Utilizó solamente clases y propiedades de un único vocabulario?
+owl y schema
 
 ¿Que impacto hubiese tenido al momento de almacenar la información obtenida el contar con un modelo como OWL?
+
 ¿Qué diferencia hay entre utilizar un modelo de objetos para integrar la información que obtuvo (como hizo anteriormente) con utilizar tripletas?
+al utilizar el modelo de objetos tenia que armar la informacion y estructurarla
+con el uso de tripletas la libreria  rdflib ya me solucionaba como armar la informacion y las referencias entre ellos, ejemplo una pelicula con su imagen
 ¿Cuán dificil es generar archivos OWL en otros formatos (por ejemplo N3, RDF/XML) a partir de la información que tiene? Y con su scrapper.
+deberia acomodar la info a lo que necesita n3

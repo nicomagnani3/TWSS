@@ -121,8 +121,8 @@ def addFunciones(movie):
 
 
 if __name__ == "__main__":
-    #getMoviesCinema()
-    #getIMB()
+    getMoviesCinema()
+    getIMB()
     with open('entregaTP3/data/imdb.json', encoding='utf-8') as fh:
         json_peliculas = json.load(fh)
 

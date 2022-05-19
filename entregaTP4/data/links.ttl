@@ -1,0 +1,500 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sw: <http://www.semanticweb.org/> .
+
+sw:Aaron_Eckhart owl:sameAs dbr:Aaron_Eckhart .
+
+sw:Adria_Arjona owl:sameAs dbr:Adria_Arjona .
+
+sw:Adrian_Greensmith owl:sameAs dbr:Adrian_Greensmith .
+
+sw:Ajay_Devgn owl:sameAs dbr:Ajay_Devgn .
+
+sw:Al_Pacino owl:sameAs dbr:Al_Pacino .
+
+sw:Alana_Haim owl:sameAs dbr:Alana_Haim .
+
+sw:Alexander_Skarsgård owl:sameAs dbr:Alexander_Skarsgård .
+
+sw:Alia_Bhatt owl:sameAs dbr:Alia_Bhatt .
+
+sw:Alicia_Vikander owl:sameAs dbr:Alicia_Vikander .
+
+sw:Alison_Sudol owl:sameAs dbr:Alison_Sudol .
+
+sw:Amber_Heard owl:sameAs dbr:Amber_Heard .
+
+sw:Amitabh_Bachchan owl:sameAs dbr:Amitabh_Bachchan .
+
+sw:Ana_de_Armas owl:sameAs dbr:Ana_de_Armas .
+
+sw:Angelina_Jolie owl:sameAs dbr:Angelina_Jolie .
+
+sw:Anil_Kapoor owl:sameAs dbr:Anil_Kapoor .
+
+sw:Anna-Maria_Sieklucka owl:sameAs dbr:Anna-Maria_Sieklucka .
+
+sw:Annette_Bening owl:sameAs dbr:Annette_Bening .
+
+sw:Ansel_Elgort owl:sameAs dbr:Ansel_Elgort .
+
+sw:Antonio_Banderas owl:sameAs dbr:Antonio_Banderas .
+
+sw:Anya_Taylor-Joy owl:sameAs dbr:Anya_Taylor-Joy .
+
+sw:Aomi_Muyock owl:sameAs dbr:Aomi_Muyock .
+
+sw:Ariana_DeBose owl:sameAs dbr:Ariana_DeBose .
+
+sw:Arnold_Vosloo owl:sameAs dbr:Arnold_Vosloo .
+
+<http://www.semanticweb.org/Auli&apos;i_Cravalho> owl:sameAs <http://dbpedia.org/resource/Auli&apos;i_Cravalho> .
+
+sw:Austin_Butler owl:sameAs dbr:Austin_Butler .
+
+sw:Ava_Morse owl:sameAs dbr:Ava_Morse .
+
+sw:Awkwafina owl:sameAs dbr:Awkwafina .
+
+sw:Ben_Affleck owl:sameAs dbr:Ben_Affleck .
+
+sw:Ben_Foster owl:sameAs dbr:Ben_Foster .
+
+sw:Ben_Schwartz owl:sameAs dbr:Ben_Schwartz .
+
+sw:Benedict_Cumberbatch owl:sameAs dbr:Benedict_Cumberbatch .
+
+sw:Bill_Murray owl:sameAs dbr:Bill_Murray .
+
+sw:Billy_Magnussen owl:sameAs dbr:Billy_Magnussen .
+
+sw:Bob_Gunton owl:sameAs dbr:Bob_Gunton .
+
+sw:Brad_Pitt owl:sameAs dbr:Brad_Pitt .
+
+sw:Bradley_Cooper owl:sameAs dbr:Bradley_Cooper .
+
+sw:Brittany_Snow owl:sameAs dbr:Brittany_Snow .
+
+sw:Bronislaw_Wroclawski owl:sameAs dbr:Bronislaw_Wroclawski .
+
+sw:Bryce_Dallas_Howard owl:sameAs dbr:Bryce_Dallas_Howard .
+
+sw:Carrie_Coon owl:sameAs dbr:Carrie_Coon .
+
+sw:Carrie_Fisher owl:sameAs dbr:Carrie_Fisher .
+
+sw:Cate_Blanchett owl:sameAs dbr:Cate_Blanchett .
+
+sw:Channing_Tatum owl:sameAs dbr:Channing_Tatum .
+
+sw:Charlie_Hunnam owl:sameAs dbr:Charlie_Hunnam .
+
+sw:Chiwetel_Ejiofor owl:sameAs dbr:Chiwetel_Ejiofor .
+
+sw:Chris_Evans owl:sameAs dbr:Chris_Evans .
+
+sw:Chris_Pine owl:sameAs dbr:Chris_Pine .
+
+sw:Chris_Pratt owl:sameAs dbr:Chris_Pratt .
+
+sw:Christian_Bale owl:sameAs dbr:Christian_Bale .
+
+sw:Cillian_Murphy owl:sameAs dbr:Cillian_Murphy .
+
+sw:Claes_Bang owl:sameAs dbr:Claes_Bang .
+
+sw:Colin_Firth owl:sameAs dbr:Colin_Firth .
+
+sw:Cooper_Hoffman owl:sameAs dbr:Cooper_Hoffman .
+
+sw:Courteney_Cox owl:sameAs dbr:Courteney_Cox .
+
+sw:Daisy_Edgar-Jones owl:sameAs dbr:Daisy_Edgar-Jones .
+
+sw:Dakota_Johnson owl:sameAs dbr:Dakota_Johnson .
+
+sw:Dan_Fogler owl:sameAs dbr:Dan_Fogler .
+
+sw:Daniel_Craig owl:sameAs dbr:Daniel_Craig .
+
+sw:Daniel_Radcliffe owl:sameAs dbr:Daniel_Radcliffe .
+
+sw:David_Arquette owl:sameAs dbr:David_Arquette .
+
+<http://www.semanticweb.org/Dylan_O&apos;Brien> owl:sameAs <http://dbpedia.org/resource/Dylan_O&apos;Brien> .
+
+sw:Eddie_Redmayne owl:sameAs dbr:Eddie_Redmayne .
+
+sw:Eiza_González owl:sameAs dbr:Eiza_González .
+
+sw:Elizabeth_Olsen owl:sameAs dbr:Elizabeth_Olsen .
+
+sw:Emilia_Jones owl:sameAs dbr:Emilia_Jones .
+
+sw:Emma_Mackey owl:sameAs dbr:Emma_Mackey .
+
+sw:Emma_Stone owl:sameAs dbr:Emma_Stone .
+
+sw:Ethan_Hawke owl:sameAs dbr:Ethan_Hawke .
+
+sw:Evan_Rachel_Wood owl:sameAs dbr:Evan_Rachel_Wood .
+
+sw:Ezra_Miller owl:sameAs dbr:Ezra_Miller .
+
+sw:Fatima_Sana_Shaikh owl:sameAs dbr:Fatima_Sana_Shaikh .
+
+sw:Finn_Wolfhard owl:sameAs dbr:Finn_Wolfhard .
+
+sw:Florence_Pugh owl:sameAs dbr:Florence_Pugh .
+
+sw:Gary_Cole owl:sameAs dbr:Gary_Cole .
+
+sw:Gayle_Rankin owl:sameAs dbr:Gayle_Rankin .
+
+sw:Gemma_Arterton owl:sameAs dbr:Gemma_Arterton .
+
+sw:Gemma_Chan owl:sameAs dbr:Gemma_Chan .
+
+sw:Geoffrey_Rush owl:sameAs dbr:Geoffrey_Rush .
+
+sw:Gillian_Jacobs owl:sameAs dbr:Gillian_Jacobs .
+
+sw:Giovanni_Ribisi owl:sameAs dbr:Giovanni_Ribisi .
+
+sw:Goksin_Erdemli owl:sameAs dbr:Goksin_Erdemli .
+
+sw:Guy_Pearce owl:sameAs dbr:Guy_Pearce .
+
+sw:Halle_Berry owl:sameAs dbr:Halle_Berry .
+
+sw:Harrison_Ford owl:sameAs dbr:Harrison_Ford .
+
+sw:Harry_Styles owl:sameAs dbr:Harry_Styles .
+
+sw:Harry_Trevaldwyn owl:sameAs dbr:Harry_Trevaldwyn .
+
+sw:Harshvardhan_Kapoor owl:sameAs dbr:Harshvardhan_Kapoor .
+
+sw:Heath_Ledger owl:sameAs dbr:Heath_Ledger .
+
+sw:Holt_McCallany owl:sameAs dbr:Holt_McCallany .
+
+sw:Hugh_Bonneville owl:sameAs dbr:Hugh_Bonneville .
+
+sw:Idris_Elba owl:sameAs dbr:Idris_Elba .
+
+sw:Isabella_Ferreira owl:sameAs dbr:Isabella_Ferreira .
+
+sw:Isis_Hainsworth owl:sameAs dbr:Isis_Hainsworth .
+
+sw:Jack_Reynor owl:sameAs dbr:Jack_Reynor .
+
+sw:Jaeden_Martell owl:sameAs dbr:Jaeden_Martell .
+
+sw:Jai_Courtney owl:sameAs dbr:Jai_Courtney .
+
+sw:Jake_Gyllenhaal owl:sameAs dbr:Jake_Gyllenhaal .
+
+sw:James_Caan owl:sameAs dbr:James_Caan .
+
+sw:James_Franco owl:sameAs dbr:James_Franco .
+
+sw:James_Marsden owl:sameAs dbr:James_Marsden .
+
+sw:James_Ransone owl:sameAs dbr:James_Ransone .
+
+sw:Jamie_Dornan owl:sameAs dbr:Jamie_Dornan .
+
+sw:Jared_Leto owl:sameAs dbr:Jared_Leto .
+
+sw:Jason_Clarke owl:sameAs dbr:Jason_Clarke .
+
+sw:Jason_Momoa owl:sameAs dbr:Jason_Momoa .
+
+sw:Jason_Statham owl:sameAs dbr:Jason_Statham .
+
+sw:Javier_Bardem owl:sameAs dbr:Javier_Bardem .
+
+sw:Jeffrey_Wright owl:sameAs dbr:Jeffrey_Wright .
+
+sw:Jenna_Ortega owl:sameAs dbr:Jenna_Ortega .
+
+sw:Jennifer_Connelly owl:sameAs dbr:Jennifer_Connelly .
+
+sw:Jennifer_Ehle owl:sameAs dbr:Jennifer_Ehle .
+
+sw:Jennifer_Lawrence owl:sameAs dbr:Jennifer_Lawrence .
+
+sw:Jeremy_Davies owl:sameAs dbr:Jeremy_Davies .
+
+sw:Jesse_Eisenberg owl:sameAs dbr:Jesse_Eisenberg .
+
+sw:Jim_Carrey owl:sameAs dbr:Jim_Carrey .
+
+sw:Jim_Carter owl:sameAs dbr:Jim_Carter .
+
+sw:Jodie_Comer owl:sameAs dbr:Jodie_Comer .
+
+sw:Joe_Manganiello owl:sameAs dbr:Joe_Manganiello .
+
+sw:John_Bradley owl:sameAs dbr:John_Bradley .
+
+sw:John_Cena owl:sameAs dbr:John_Cena .
+
+sw:John_Leguizamo owl:sameAs dbr:John_Leguizamo .
+
+sw:Johnny_Depp owl:sameAs dbr:Johnny_Depp .
+
+sw:Jojo_T._Gibbs owl:sameAs dbr:Jojo_T._Gibbs .
+
+sw:Josh_Hartnett owl:sameAs dbr:Josh_Hartnett .
+
+sw:Josh_Lucas owl:sameAs dbr:Josh_Lucas .
+
+sw:Jude_Law owl:sameAs dbr:Jude_Law .
+
+sw:Julianne_Nicholson owl:sameAs dbr:Julianne_Nicholson .
+
+sw:Justin_Theroux owl:sameAs dbr:Justin_Theroux .
+
+sw:Karen_Gillan owl:sameAs dbr:Karen_Gillan .
+
+sw:Karl_Glusman owl:sameAs dbr:Karl_Glusman .
+
+sw:Kasia_Madera owl:sameAs dbr:Kasia_Madera .
+
+sw:Kate_Dickie owl:sameAs dbr:Kate_Dickie .
+
+sw:Katherine_Waterston owl:sameAs dbr:Katherine_Waterston .
+
+sw:Ke_Huy_Quan owl:sameAs dbr:Ke_Huy_Quan .
+
+sw:Keke_Palmer owl:sameAs dbr:Keke_Palmer .
+
+sw:Kelly_Macdonald owl:sameAs dbr:Kelly_Macdonald .
+
+sw:Kelly_McGillis owl:sameAs dbr:Kelly_McGillis .
+
+sw:Kenneth_Branagh owl:sameAs dbr:Kenneth_Branagh .
+
+sw:Kiera_Allen owl:sameAs dbr:Kiera_Allen .
+
+sw:Klara_Kristin owl:sameAs dbr:Klara_Kristin .
+
+sw:Leonardo_DiCaprio owl:sameAs dbr:Leonardo_DiCaprio .
+
+sw:Liam_Neeson owl:sameAs dbr:Liam_Neeson .
+
+sw:Malcolm_McDowell owl:sameAs dbr:Malcolm_McDowell .
+
+sw:Marc_Maron owl:sameAs dbr:Marc_Maron .
+
+sw:Margot_Robbie owl:sameAs dbr:Margot_Robbie .
+
+sw:Mark_Hamill owl:sameAs dbr:Mark_Hamill .
+
+sw:Mark_Ruffalo owl:sameAs dbr:Mark_Ruffalo .
+
+sw:Mark_Rylance owl:sameAs dbr:Mark_Rylance .
+
+sw:Mark_Wahlberg owl:sameAs dbr:Mark_Wahlberg .
+
+sw:Marlee_Matlin owl:sameAs dbr:Marlee_Matlin .
+
+sw:Marlon_Brando owl:sameAs dbr:Marlon_Brando .
+
+sw:María_Cecilia_Botero owl:sameAs dbr:María_Cecilia_Botero .
+
+sw:Matt_Bomer owl:sameAs dbr:Matt_Bomer .
+
+sw:Matt_Smith owl:sameAs dbr:Matt_Smith .
+
+sw:Matthew_Macfadyen owl:sameAs dbr:Matthew_Macfadyen .
+
+sw:Matthew_McConaughey owl:sameAs dbr:Matthew_McConaughey .
+
+sw:Mel_Gibson owl:sameAs dbr:Mel_Gibson .
+
+sw:Meryl_Streep owl:sameAs dbr:Meryl_Streep .
+
+sw:Mia_Goth owl:sameAs dbr:Mia_Goth .
+
+sw:Michele_Morrone owl:sameAs dbr:Michele_Morrone .
+
+sw:Michelle_Dockery owl:sameAs dbr:Michelle_Dockery .
+
+sw:Michelle_Monaghan owl:sameAs dbr:Michelle_Monaghan .
+
+sw:Michelle_Mosalakae owl:sameAs dbr:Michelle_Mosalakae .
+
+sw:Michelle_Williams owl:sameAs dbr:Michelle_Williams .
+
+sw:Michelle_Yeoh owl:sameAs dbr:Michelle_Yeoh .
+
+sw:Miles_Teller owl:sameAs dbr:Miles_Teller .
+
+sw:Monica_Bellucci owl:sameAs dbr:Monica_Bellucci .
+
+sw:Morgan_Freeman owl:sameAs dbr:Morgan_Freeman .
+
+sw:Neve_Campbell owl:sameAs dbr:Neve_Campbell .
+
+sw:Nicolas_Cage owl:sameAs dbr:Nicolas_Cage .
+
+sw:Nicole_Kidman owl:sameAs dbr:Nicole_Kidman .
+
+sw:Olivia_DeJonge owl:sameAs dbr:Olivia_DeJonge .
+
+sw:Olivia_Wilde owl:sameAs dbr:Olivia_Wilde .
+
+sw:Orlando_Bloom owl:sameAs dbr:Orlando_Bloom .
+
+sw:Paapa_Essiedu owl:sameAs dbr:Paapa_Essiedu .
+
+sw:Patrick_Wilson owl:sameAs dbr:Patrick_Wilson .
+
+sw:Paul_Rudd owl:sameAs dbr:Paul_Rudd .
+
+sw:Pedro_Pascal owl:sameAs dbr:Pedro_Pascal .
+
+sw:Penélope_Cruz owl:sameAs dbr:Penélope_Cruz .
+
+sw:Peter_Serafinowicz owl:sameAs dbr:Peter_Serafinowicz .
+
+sw:Pom_Klementieff owl:sameAs dbr:Pom_Klementieff .
+
+sw:Rachel_McAdams owl:sameAs dbr:Rachel_McAdams .
+
+sw:Rachel_Zegler owl:sameAs dbr:Rachel_Zegler .
+
+sw:Rakul_Preet_Singh owl:sameAs dbr:Rakul_Preet_Singh .
+
+sw:Ralph_Fiennes owl:sameAs dbr:Ralph_Fiennes .
+
+sw:Ralph_Ineson owl:sameAs dbr:Ralph_Ineson .
+
+sw:Rami_Malek owl:sameAs dbr:Rami_Malek .
+
+sw:Rebecca_Ferguson owl:sameAs dbr:Rebecca_Ferguson .
+
+sw:Reese_Witherspoon owl:sameAs dbr:Reese_Witherspoon .
+
+sw:Regé-Jean_Page owl:sameAs dbr:Regé-Jean_Page .
+
+sw:Rhys_Ifans owl:sameAs dbr:Rhys_Ifans .
+
+sw:Richard_Madden owl:sameAs dbr:Richard_Madden .
+
+<http://www.semanticweb.org/Robert_Downey_Jr.> owl:sameAs <http://dbpedia.org/resource/Robert_Downey_Jr.> .
+
+sw:Robert_Pattinson owl:sameAs dbr:Robert_Pattinson .
+
+sw:Rosalie_Chiang owl:sameAs dbr:Rosalie_Chiang .
+
+sw:Rowan_Blanchard owl:sameAs dbr:Rowan_Blanchard .
+
+sw:Ryan_Gosling owl:sameAs dbr:Ryan_Gosling .
+
+sw:Ryan_Kiera_Armstrong owl:sameAs dbr:Ryan_Kiera_Armstrong .
+
+sw:Ryan_Reynolds owl:sameAs dbr:Ryan_Reynolds .
+
+sw:Sam_Neill owl:sameAs dbr:Sam_Neill .
+
+sw:Sam_Rockwell owl:sameAs dbr:Sam_Rockwell .
+
+sw:Sam_Worthington owl:sameAs dbr:Sam_Worthington .
+
+sw:Samson_Kayo owl:sameAs dbr:Samson_Kayo .
+
+sw:Sander_Thomas owl:sameAs dbr:Sander_Thomas .
+
+sw:Sandra_Bullock owl:sameAs dbr:Sandra_Bullock .
+
+sw:Sandra_Oh owl:sameAs dbr:Sandra_Oh .
+
+sw:Sanjay_Dutt owl:sameAs dbr:Sanjay_Dutt .
+
+sw:Sara_Sohn owl:sameAs dbr:Sara_Sohn .
+
+sw:Sarah_Kozlowski owl:sameAs dbr:Sarah_Kozlowski .
+
+sw:Sarah_Paulson owl:sameAs dbr:Sarah_Paulson .
+
+sw:Sarah_Twomey owl:sameAs dbr:Sarah_Twomey .
+
+sw:Scarlett_Johansson owl:sameAs dbr:Scarlett_Johansson .
+
+sw:Sean_Penn owl:sameAs dbr:Sean_Penn .
+
+sw:Sebastian_Stan owl:sameAs dbr:Sebastian_Stan .
+
+sw:Seth_Rogen owl:sameAs dbr:Seth_Rogen .
+
+sw:Shantanu_Maheshwari owl:sameAs dbr:Shantanu_Maheshwari .
+
+sw:Sigourney_Weaver owl:sameAs dbr:Sigourney_Weaver .
+
+sw:Simone_Susinna owl:sameAs dbr:Simone_Susinna .
+
+sw:Srinidhi_Shetty owl:sameAs dbr:Srinidhi_Shetty .
+
+sw:Stephanie_Beatriz owl:sameAs dbr:Stephanie_Beatriz .
+
+sw:Stephanie_Hsu owl:sameAs dbr:Stephanie_Hsu .
+
+sw:Sydney_Lemmon owl:sameAs dbr:Sydney_Lemmon .
+
+sw:Taika_Waititi owl:sameAs dbr:Taika_Waititi .
+
+sw:Theo_James owl:sameAs dbr:Theo_James .
+
+sw:Tiffany_Haddish owl:sameAs dbr:Tiffany_Haddish .
+
+sw:Tim_Robbins owl:sameAs dbr:Tim_Robbins .
+
+sw:Timothée_Chalamet owl:sameAs dbr:Timothée_Chalamet .
+
+sw:Tom_Bateman owl:sameAs dbr:Tom_Bateman .
+
+sw:Tom_Cruise owl:sameAs dbr:Tom_Cruise .
+
+sw:Tom_Hanks owl:sameAs dbr:Tom_Hanks .
+
+sw:Tom_Hardy owl:sameAs dbr:Tom_Hardy .
+
+sw:Tom_Holland owl:sameAs dbr:Tom_Holland .
+
+sw:Toni_Collette owl:sameAs dbr:Toni_Collette .
+
+sw:Tracy_Letts owl:sameAs dbr:Tracy_Letts .
+
+sw:Troy_Kotsur owl:sameAs dbr:Troy_Kotsur .
+
+sw:Vicky_Krieps owl:sameAs dbr:Vicky_Krieps .
+
+sw:Vijay_Raaz owl:sameAs dbr:Vijay_Raaz .
+
+sw:Vilhelm_Blomgren owl:sameAs dbr:Vilhelm_Blomgren .
+
+sw:Walker_Scobell owl:sameAs dbr:Walker_Scobell .
+
+sw:Willem_Dafoe owl:sameAs dbr:Willem_Dafoe .
+
+sw:Woody_Harrelson owl:sameAs dbr:Woody_Harrelson .
+
+sw:Yahya_Abdul-Mateen_II owl:sameAs dbr:Yahya_Abdul-Mateen_II .
+
+sw:Yash owl:sameAs dbr:Yash .
+
+sw:Zac_Efron owl:sameAs dbr:Zac_Efron .
+
+sw:Zendaya owl:sameAs dbr:Zendaya .
+
+sw:Zoe_Saldana owl:sameAs dbr:Zoe_Saldana .
+
+sw:Zoey_Deutch owl:sameAs dbr:Zoey_Deutch .
+
+sw:Zoë_Kravitz owl:sameAs dbr:Zoë_Kravitz .
+
