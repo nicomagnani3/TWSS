@@ -18,7 +18,7 @@ def getMoviesCinema():
         outfile.write(json.dumps(data, indent=4, ensure_ascii=False))
     return data
 
-
+"revisar salto de linea"
 def getSalaAndHoursMovieCinema(movieSoup):
     horarios = movieSoup.find_all('div', attrs={"class": "col-2"})
     detailsFunction = []
@@ -27,11 +27,16 @@ def getSalaAndHoursMovieCinema(movieSoup):
         nameCine=nameCine.split(" - ")
         nameCine
         funcion = horario.find('p').text
+        print(funcion)
         funcion = html.unescape(funcion.replace("\n", " "))
+        print(funcion)
         funcion=funcion.split(": ")
+        print(funcion)
         funcion=funcion[1].strip()
+        print(funcion)
         formato= nameCine[1].strip()
-        detailsFunction.append(jsonScreeningEvent(nameCine[0], funcion, formato))    
+        detailsFunction.append(jsonScreeningEvent(nameCine[0], funcion, formato))  
+          
     return detailsFunction    
 
 

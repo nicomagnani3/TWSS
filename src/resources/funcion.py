@@ -1,4 +1,4 @@
-class Funcion:
+class Funcion():
     def __init__(self, idioma, horario, cine, formato, dia=None) -> None:
         self.idioma = idioma.strip().lower()
         self.horario = horario.strip()
@@ -8,13 +8,13 @@ class Funcion:
 
 
     def __repr__(self):
-        return "\n\tCine: {0}\n\tHorario: {1}\n\tIdioma: {2}".format(self.cine.toJSON(), self.horario, self.idioma)
+        return "\n\tCine: {0}\n\tHorario: {1}\n\tIdioma: {2}".format(self.cine, self.horario, self.idioma)
 
     def toJSON(self):
         return {
             'idioma': self.idioma,
             'horario': self.horario,
-            'cine': self.cine.toJSON(),
+            'cine': self.cine,
             'formato': self.formato,
             'dia': self.dia
             }

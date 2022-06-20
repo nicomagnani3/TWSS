@@ -1,0 +1,19 @@
+1. ¿Qué es dbpedia?
+es un proyecto para la extracción de datos de Wikipedia para proponer una versión Web semántica. 
+Permite extraer contenido estructurado de la información creada en varios proyectos de Wikimedia. 
+Esta información estructurada se parece a un gráfico de conocimiento abierto (OKG) que está disponible para todos en la Web. 
+Un gráfico de conocimiento es un tipo especial de base de datos que almacena conocimiento en un formato legible por máquina y proporciona un medio para recopilar, organizar, compartir, buscar y utilizar información
+Los datos de DBpedia se sirven como datos vinculados, lo que está revolucionando la forma en que las aplicaciones interactúan con la Web. Uno puede navegar esta Web de hechos con navegadores Web estándar, rastreadores automatizados o plantear consultas complejas con lenguajes de consulta similares a SQL (por ejemplo, SPARQL)
+2. ¿De donde sale la información disponible en dbpedia?
+
+3. ¿Que partes de los artículos de Wikipedia se transforman en tripletas?
+
+4. ¿Cual es el esquema de URIs que utiliza dbpedia? 
+
+5. ¿Dado el articulo en Wikipedia de "National University of La Plata", como infiero la URL del recurso correspondiente en dbpedia? ¿Cuál sería para Argentina? ¿Y para Uruguay? (exprese su respuesta aprovechando el prefijo dbr:  para referirse a http://dbpedia.org/resource/)
+
+6. ¿cuál es la diferencia entre las propiedades definidas en dbo: y las propiedades definidas en dbp:? 
+
+7.  ¿Cuantas clases y cuantas propiedades tiene la ontología de dbpedia de acuerdo a lo reportado en el artículo?
+
+8. ¿En que URL puedo ver el listado completo de Clases en la ontología de dbpedia?  
