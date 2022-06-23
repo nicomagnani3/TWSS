@@ -1,12 +1,11 @@
 from resources.movieCinema import MovieCinema
 from resources.movieCinpolis import MovieCinpolis
-
+from resources.merge import Merge
 if __name__ == "__main__":
-    cinepolisCartelera= MovieCinpolis.buscarCinepolis() 
+    #cinepolisCartelera= MovieCinpolis.buscarCinepolis() 
     #cinemaCartelera=MovieCinema.getMoviesCinema()    
    
-    #print (cinemaCartelera) 
-    print(cinepolisCartelera)
+    mergeMovies=Merge.mergeMovies()
     
 
     

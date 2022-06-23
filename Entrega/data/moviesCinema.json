@@ -1,0 +1,280 @@
+{
+    "peliculas": [
+        [
+            {
+                "actores": "Channing Tatum, Jane Adams, Ronnie Gene Blevins, Q'orianka Kilcher, Kevin Nash, Cayden Boyd, Aqueela Zoll, Nicole LaLiberte, Amanda Booth, Neraida Beg",
+                "directores": "Reid Carolin, Channing Tatum",
+                "duracion": "101 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA OCHO - SALA HD",
+                        "horarios": " CASTELLANO:    13:30 - 15:45 - 18:00  "
+                    }
+                ],
+                "genero": "Comedia",
+                "origen": "EEUU",
+                "titulo": "DOG: UN VIAJE SALVAJE  "
+            },
+            {
+                "actores": "Ethan Hawke, Jeremy Davies, James Ransone, Madeleine McGraw, Gina Jun, E. Roger Mitchell, Ron Blake, Robert Fortunato",
+                "directores": "Scott Derrickson",
+                "duracion": "103 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA ROCHA - SALA HD",
+                        "horarios": " CASTELLANO:    15:20 - 22:55 SUBTITULADA:    13:00  "
+                    },
+                    {
+                        "cine": "CINEMA SAN MARTIN - SALA HD",
+                        "horarios": " CASTELLANO:    13:00 - 18:00 - 20:30 SUBTITULADA:    15:30 - 23:00  "
+                    }
+                ],
+                "genero": "Terror",
+                "origen": "EEUU",
+                "titulo": "EL TELÉFONO NEGRO  "
+            },
+            {
+                "actores": "Liam Neeson, Guy Pearce, Monica Bellucci, Taj Atwal, Harold Torres, Ray Fearon, Ray Stevenson, Louis Mandylor, Stella Stocker",
+                "directores": "Martin Campbell",
+                "duracion": "113 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA ROCHA - SALA HD",
+                        "horarios": " SUBTITULADA:    23:10  "
+                    }
+                ],
+                "genero": "Acción",
+                "origen": "EEUU",
+                "titulo": "ASESINO SIN MEMORIA  "
+            },
+            {
+                "actores": "Benedict Cumberbatch, Elizabeth Olsen, Benedict Wong, Rachel McAdams, Chiwetel Ejiofor, Xochitl Gomez, Soo Cole, Tony McCarthy",
+                "directores": "Sam Raimi",
+                "duracion": "126 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA OCHO - SALA HD",
+                        "horarios": " CASTELLANO:    20:20  "
+                    },
+                    {
+                        "cine": "CINEMA PARADISO - SALA HD",
+                        "horarios": " CASTELLANO:    18:00 SUBTITULADA:    23:15  "
+                    },
+                    {
+                        "cine": "CINEMA SAN MARTIN - SALA HD",
+                        "horarios": " CASTELLANO:    15:30  "
+                    }
+                ],
+                "genero": "Acción-Fantasía",
+                "origen": "EEUU",
+                "titulo": "DOCTOR STRANGE EN EL MULTIVERSO DE LA LOCURA  "
+            },
+            {
+                "actores": "Maria Gabriela de Faría, Joseph Marcell, Will Beinbrink",
+                "directores": "Alejandro Hidalgo",
+                "duracion": "98 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA OCHO - SALA HD",
+                        "horarios": " CASTELLANO:    22:50  "
+                    }
+                ],
+                "genero": "Terror",
+                "origen": "México",
+                "titulo": "EL EXORCISMO DE DIOS  "
+            },
+            {
+                "actores": "Teresa Palmer, Steven Cree, Barbara Marten, Tristan Ruggeri, Ergo Küppas",
+                "directores": "Taneli Mustonen",
+                "duracion": "109 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA SAN MARTIN - SALA HD",
+                        "horarios": " CASTELLANO:    13:15 - 23:05  "
+                    }
+                ],
+                "genero": "Terror",
+                "origen": "Finlandia",
+                "titulo": "GEMELO SINIESTRO  "
+            },
+            {
+                "actores": "Chris Pratt, Laura Dern, Jeff Goldblum, Sam Neill, Bryce Dallas Howard, Omar Sy, Campbell Scott, Mamoudou Athie, BD Wong",
+                "directores": "Colin Trevorrow",
+                "duracion": "146 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA CITY - SALA 3D",
+                        "horarios": " CASTELLANO:    13:30 - 20:00 - 23:05  "
+                    },
+                    {
+                        "cine": "CINEMA CITY - SALA 4D+3D ",
+                        "horarios": " CASTELLANO:    20:10 - 23:15  "
+                    },
+                    {
+                        "cine": "CINEMA CITY - SALA HD",
+                        "horarios": " CASTELLANO:    16:45 SUBTITULADA:    23:00  "
+                    },
+                    {
+                        "cine": "CINEMA OCHO - SALA 3D",
+                        "horarios": " CASTELLANO:   13:00 -  19:30  "
+                    },
+                    {
+                        "cine": "CINEMA OCHO - SALA HD",
+                        "horarios": " CASTELLANO:    13:00 - 16:15 - 22:45  "
+                    },
+                    {
+                        "cine": "CINEMA PARADISO - SALA HD",
+                        "horarios": " CASTELLANO:    15:10 - 20:10 - 22:50  "
+                    },
+                    {
+                        "cine": "CINEMA ROCHA - SALA ATMOS HD ",
+                        "horarios": " CASTELLANO:    13:30 - 16:45 - 20:10 SUBTITULADA:    23:15  "
+                    },
+                    {
+                        "cine": "CINEMA SAN MARTIN - SALA 3D",
+                        "horarios": " CASTELLANO:    16:30 - 23:00  "
+                    },
+                    {
+                        "cine": "CINEMA SAN MARTIN - SALA HD",
+                        "horarios": " CASTELLANO:    13:15 - 19:45  "
+                    }
+                ],
+                "genero": "Acción-Fantasía",
+                "origen": "EEUU",
+                "titulo": "JURASSIC WORLD 3: DOMINIO  "
+            },
+            {
+                "actores": "Animación. VOCES ORIGINALES: Chris Evans",
+                "directores": "Angus MacLane",
+                "duracion": "105 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA CITY - SALA 4D+3D ",
+                        "horarios": " CASTELLANO:    13:00 - 15:25 - 17:50  "
+                    },
+                    {
+                        "cine": "CINEMA CITY - SALA HD",
+                        "horarios": " CASTELLANO:    13:30 - 20:35  "
+                    },
+                    {
+                        "cine": "CINEMA OCHO - SALA 3D",
+                        "horarios": " CASTELLANO:    17:45  "
+                    },
+                    {
+                        "cine": "CINEMA OCHO - SALA HD",
+                        "horarios": " CASTELLANO:    13:00 - 15:20 - 20:10 - 22:30  "
+                    },
+                    {
+                        "cine": "CINEMA PARADISO - SALA 3D",
+                        "horarios": " CASTELLANO:    13:15  "
+                    },
+                    {
+                        "cine": "CINEMA PARADISO - SALA HD",
+                        "horarios": " CASTELLANO:    15:40 - 18:05 - 20:35 SUBTITULADA:    23:05  "
+                    },
+                    {
+                        "cine": "CINEMA ROCHA - SALA 3D",
+                        "horarios": " CASTELLANO:    21:00  "
+                    },
+                    {
+                        "cine": "CINEMA ROCHA - SALA HD",
+                        "horarios": " CASTELLANO:    13:45 - 16:10 - 18:40  "
+                    },
+                    {
+                        "cine": "CINEMA SAN MARTIN - SALA 3D",
+                        "horarios": " CASTELLANO:    15:50  "
+                    },
+                    {
+                        "cine": "CINEMA SAN MARTIN - SALA HD",
+                        "horarios": " CASTELLANO:    13:30 - 18:15 - 20:40  "
+                    }
+                ],
+                "genero": "Animación",
+                "origen": "EEUU",
+                "titulo": "LIGHTYEAR  "
+            },
+            {
+                "actores": "Animación",
+                "directores": "Pierre Perifel",
+                "duracion": "100 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA PARADISO - SALA HD",
+                        "horarios": " CASTELLANO:    13:00 - 15:30  "
+                    }
+                ],
+                "genero": "Acción, Aventuras",
+                "origen": "EEUU",
+                "titulo": "LOS TIPOS MALOS  "
+            },
+            {
+                "actores": "Animación, Voz: Matthew McConaughey, Reese Witherspoon, Scarlett Johansson, Taron Egerton, Bobby Cannavale, Tori Kelly, Nick Kroll, Pharrell Williams",
+                "directores": "Garth Jennings",
+                "duracion": "110 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA PARADISO - SALA HD",
+                        "horarios": " CASTELLANO:    13:00  "
+                    }
+                ],
+                "genero": "Animación",
+                "origen": "EEUU",
+                "titulo": "SING 2  "
+            },
+            {
+                "actores": "Voces originales: Tika Sumpter, Jim Carrey, James Marsden, Natasha Rothwell, Shemar Moore, Adam Pally, Lee Majdoub. Voz: Ben Schwartz",
+                "directores": "Jeff Fowler",
+                "duracion": "No disponible",
+                "funciones": [
+                    {
+                        "cine": "CINEMA CITY - SALA HD",
+                        "horarios": " CASTELLANO:    15:40 - 18:15  "
+                    },
+                    {
+                        "cine": "CINEMA PARADISO - SALA HD",
+                        "horarios": " CASTELLANO:    13:00 - 17:45  "
+                    }
+                ],
+                "genero": "Animación",
+                "origen": "EEUU",
+                "titulo": "SONIC 2  "
+            },
+            {
+                "actores": "Michelle Yeoh, Jamie Lee Curtis, Jonathan Ke Quan, James Hong, Anthony Molinari, Audrey Wasilewski, Stephanie Hsu, Peter Banifaz, Brian Le, Andy Le, T",
+                "directores": "Dan Kwan, Daniel Scheinert",
+                "duracion": "139 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA PARADISO - SALA HD",
+                        "horarios": " SUBTITULADA:    20:40  "
+                    }
+                ],
+                "genero": "Comedia/ Acciòn",
+                "origen": "EEUU",
+                "titulo": "TODO EN TODAS PARTES AL MISMO TIEMPO  "
+            },
+            {
+                "actores": "Tom Cruise, Val Kilmer, Miles Teller, Jennifer Connelly, Glen Powell, Jon Hamm, Ed Harris, Lewis Pullman, Jay Ellis, Thomasin McKenzie",
+                "directores": "Joseph Kosinski",
+                "duracion": "131 minutos.",
+                "funciones": [
+                    {
+                        "cine": "CINEMA PARADISO - SALA HD",
+                        "horarios": " CASTELLANO:    15:10 - 17:50 SUBTITULADA:    20:30 - 23:10  "
+                    },
+                    {
+                        "cine": "CINEMA ROCHA - SALA HD",
+                        "horarios": " CASTELLANO:    20:20 SUBTITULADA:    17:45  "
+                    },
+                    {
+                        "cine": "CINEMA SAN MARTIN - SALA HD",
+                        "horarios": " CASTELLANO:    18:00 - 20:35 - 23:10  "
+                    }
+                ],
+                "genero": "Acción",
+                "origen": "EEUU",
+                "titulo": "TOP GUN 2: MAVERICK  "
+            }
+        ]
+    ]
+}

@@ -30,8 +30,10 @@ class MovieCinpolis():
                 print(movie)
               
 
+        data= {"peliculas": [JsonMovie(movie)for movie in lisMovies]}
+        data
         with open("Entrega/data/moviesCinepolis.json", "w", encoding='utf8') as outfile:
-                    outfile.write(json.dumps(JsonMovie(movie)for movie in lisMovies), indent=4, ensure_ascii=False)
+                     json.dump(data, outfile, ensure_ascii=False, indent=4, sort_keys=True)
         return lisMovies
 
 def JsonMovie(movie):   

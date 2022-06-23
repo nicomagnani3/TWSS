@@ -15,6 +15,10 @@ class MovieCinema():
          details=MovieCinema.getDetailsMovieCinema(movie, movie.find('a').string)   
          data.append(details)
       
+
+      data= {"peliculas": [data]}
+      with open("Entrega/data/moviesCinema.json", "w", encoding='utf8') as outfile:
+                     json.dump(data, outfile, ensure_ascii=False, indent=4, sort_keys=True)
       return json.dumps(data, indent=4, ensure_ascii=False) 
 
    
@@ -63,8 +67,8 @@ class MovieCinema():
                "origen" :origen,  
                "duracion" :duracion,   
                "actores" :actores, 
-               "director":director,
-               "horario":horario 
+               "directores":director,
+               "funciones":horario 
             }
         return dictionary
 
