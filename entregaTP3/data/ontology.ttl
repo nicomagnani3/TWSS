@@ -10,8 +10,14 @@
 
 <http://www.semanticweb.org> rdf:type owl:Ontology .
 
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
 ###  http://www.w3.org/2001/XMLSchema#duration
 xsd:duration rdf:type rdfs:Datatype .
+
+
 
 ###  http://www.semanticweb.org#directs
 :directs rdf:type owl:ObjectProperty ;
@@ -34,15 +40,15 @@ xsd:duration rdf:type rdfs:Datatype .
             rdfs:range schema:Movie .
 
 
-###  http://www.semanticweb.org#isContainedIn
-:isContainedIn rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org#playedIn
+:playedIn rdf:type owl:ObjectProperty ;
           owl:inverseOf schema:workPresented ;
           rdfs:domain schema:Movie ;
           rdfs:range schema:ScreeningEvent .
 
 
-###  http://www.semanticweb.org#hasSequelOf
-:hasSequelOf rdf:type owl:ObjectProperty ,
+###  http://www.semanticweb.org#sequelOf
+:sequelOf rdf:type owl:ObjectProperty ,
           owl:TransitiveProperty ;
           rdfs:domain schema:Movie ;
           rdfs:range schema:Movie .
@@ -54,3 +60,134 @@ xsd:duration rdf:type rdfs:Datatype .
                     owl:IrreflexiveProperty ;
            rdfs:domain schema:Person ;
            rdfs:range schema:Person .
+
+
+###  https://schema.org/actor
+schema:actor rdf:type owl:ObjectProperty ;
+             rdfs:domain schema:Movie ;
+             rdfs:range schema:Person ;
+             owl:propertyDisjointWith schema:director .
+
+
+###  https://schema.org/aggregateRating
+schema:aggregateRating rdf:type owl:ObjectProperty ;
+                       rdfs:domain schema:Movie ;
+                       rdfs:range schema:AggregateRating .
+
+
+###  https://schema.org/director
+schema:director rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain schema:Movie ;
+                rdfs:range schema:Person .
+
+
+###  https://schema.org/image
+schema:image rdf:type owl:ObjectProperty ;
+             rdfs:domain schema:Movie ;
+             rdfs:range schema:ImageObject .
+
+
+###  https://schema.org/isBasedOn
+schema:isBasedOn rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 rdfs:domain schema:Movie ;
+                 rdfs:range schema:Movie .
+
+
+###  https://schema.org/location
+schema:location rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain schema:ScreeningEvent ;
+                rdfs:range schema:MovieTheater .
+
+
+###  https://schema.org/workPresented
+schema:workPresented rdf:type owl:ObjectProperty ;
+                     rdfs:domain schema:ScreeningEvent ;
+                     rdfs:range schema:Movie .
+
+
+
+
+###  https://schema.org/address
+schema:address rdf:type owl:DatatypeProperty ;
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( schema:MovieTheater
+                                           schema:ScreeningEvent
+                                         )
+                           ] ;
+               rdfs:range xsd:string .
+
+
+###  https://schema.org/contentUrl
+schema:contentUrl rdf:type owl:DatatypeProperty ;
+                  rdfs:domain schema:ImageObject ;
+                  rdfs:range xsd:string .
+
+
+###  https://schema.org/datePublished
+schema:datePublished rdf:type owl:DatatypeProperty ;
+                     rdfs:domain schema:Movie ;
+                     rdfs:range xsd:dateTime .
+
+
+###  https://schema.org/doorTime
+schema:doorTime rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:ScreeningEvent ;
+                rdfs:range xsd:dateTime .
+
+
+###  https://schema.org/duration
+schema:duration rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:Movie ;
+                rdfs:range xsd:duration .
+
+
+###  https://schema.org/genre
+schema:genre rdf:type owl:DatatypeProperty ;
+             rdfs:domain schema:Movie ;
+             rdfs:range xsd:string .
+
+
+###  https://schema.org/name
+schema:name rdf:type owl:DatatypeProperty ;
+            rdfs:domain owl:Thing ;
+            rdfs:range xsd:string .
+
+
+###  https://schema.org/ratingValue
+schema:ratingValue rdf:type owl:DatatypeProperty ;
+                   rdfs:domain schema:AggregateRating ;
+                   rdfs:range xsd:double .
+
+
+###  https://schema.org/videoFormat
+schema:videoFormat rdf:type owl:DatatypeProperty ;
+                   rdfs:domain schema:ScreeningEvent ;
+                   rdfs:range xsd:string .
+
+
+
+###  https://schema.org/AggregateRating
+schema:AggregateRating rdf:type owl:Class .
+
+
+###  https://schema.org/ImageObject
+schema:ImageObject rdf:type owl:Class .
+
+
+###  https://schema.org/Movie
+schema:Movie rdf:type owl:Class .
+
+
+###  https://schema.org/MovieTheater
+schema:MovieTheater rdf:type owl:Class .
+
+
+###  https://schema.org/Person
+schema:Person rdf:type owl:Class .
+
+
+###  https://schema.org/ScreeningEvent
+schema:ScreeningEvent rdf:type owl:Class .
